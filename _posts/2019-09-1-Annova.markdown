@@ -255,4 +255,20 @@ m_comp = pairwise_tukeyhsd(endog=df['SepalWidthCm'], groups=df['Species'], alpha
 
 {% endhighlight %}
 
+{% highlight python %}
+
+print(m_comp)
+{% endhighlight %}
+
+
+             Multiple Comparison of Means - Tukey HSD, FWER=0.05          
+    ======================================================================
+         group1          group2     meandiff p-adj   lower   upper  reject
+    ----------------------------------------------------------------------
+        Iris-setosa Iris-versicolor  -0.6463  0.001 -0.8089 -0.4838   True
+        Iris-setosa  Iris-virginica  -0.4423  0.001 -0.6049 -0.2798   True
+    Iris-versicolor  Iris-virginica    0.204 0.0092  0.0423  0.3657   True
+    ----------------------------------------------------------------------
+
+
 Using an alpha of 0.05, we can see that the p adj value is less than our alpha in all three pairwise comparisons meaning there is a significant difference between all three species' means
