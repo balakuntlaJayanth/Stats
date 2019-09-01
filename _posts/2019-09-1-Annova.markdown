@@ -1,0 +1,258 @@
+---
+layout: post
+title:  "Anova in Python"
+date:   2019-09-01 22:02:38 +0530
+categories: jekyll update
+---
+#Anova in python
+
+###Introduction to ANOVA
+
+Anova (Analysis of Variance) is a statistical method used to compare 
+the means of more than 2 groups. It is advised to use t-test for 2 group comparison. If number of groups are more than 2 then Anova is used.
+
+Assumptions of Anova
+
+- The data points must be distinct and Independent
+- The data is normally distributed
+- Variance of dependent variables are equal in each sub population. Homogenity 
+
+ANOVA Hypotheses
+
+-     Null hypotheses: Groups means are equal (no variation in means of groups)
+-     Alternative hypotheses: At least, one group mean is different from other groups
+
+Note: In ANOVA, group, factors, and independent variables are similar terms
+
+###One-way (one factor) ANOVA
+
+The one-way ANOVA is used to test for differences among at least three groups.
+
+Here is an example for conducting One way Annova for IRIS data set.
+
+For this example, we're going to use a very popular dataset that is from UCLA machine learning repository and is used in a lot of machine learning examples. 
+It's called the iris dataset and is a collection of flower samples each labeled with its flower species. There are four explanatory variables that describe each Species, which are Sepal Length, Sepal Width, Petal Length, and Petal Width. 
+We're going to use this dataset as a toy example and use Sepal Length as our response variable (dependent variable) to test if there is a significant difference between the mean sepal widths of each species (independent variable) of iris flower.
+
+Next, let's perform our ANOVA test. 
+
+### Loading data
+
+{% highlight python %}
+df = pd.read_csv(file)
+df.columns = ['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm','Species']
+print(df.head())
+
+{% endhighlight %}
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>SepalLengthCm</th>
+      <th>SepalWidthCm</th>
+      <th>PetalLengthCm</th>
+      <th>PetalWidthCm</th>
+      <th>Species</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>4.9</td>
+      <td>3.0</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4.7</td>
+      <td>3.2</td>
+      <td>1.3</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4.6</td>
+      <td>3.1</td>
+      <td>1.5</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5.0</td>
+      <td>3.6</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5.4</td>
+      <td>3.9</td>
+      <td>1.7</td>
+      <td>0.4</td>
+      <td>Iris-setosa</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+{% highlight python %}
+
+```python
+df.describe()
+```
+{% endhighlight %}
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>SepalLengthCm</th>
+      <th>SepalWidthCm</th>
+      <th>PetalLengthCm</th>
+      <th>PetalWidthCm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>149.000000</td>
+      <td>149.000000</td>
+      <td>149.000000</td>
+      <td>149.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>5.848322</td>
+      <td>3.051007</td>
+      <td>3.774497</td>
+      <td>1.205369</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.828594</td>
+      <td>0.433499</td>
+      <td>1.759651</td>
+      <td>0.761292</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>4.300000</td>
+      <td>2.000000</td>
+      <td>1.000000</td>
+      <td>0.100000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>5.100000</td>
+      <td>2.800000</td>
+      <td>1.600000</td>
+      <td>0.300000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>5.800000</td>
+      <td>3.000000</td>
+      <td>4.400000</td>
+      <td>1.300000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>6.400000</td>
+      <td>3.300000</td>
+      <td>5.100000</td>
+      <td>1.800000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>7.900000</td>
+      <td>4.400000</td>
+      <td>6.900000</td>
+      <td>2.500000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+{% highlight python %}
+
+
+df.boxplot('SepalLengthCm', by='Species', figsize=(12, 8))
+
+{% endhighlight %}
+
+
+![png](output_4_1.png)
+
+###ANOVA using statsmodel
+
+{% highlight python %}
+
+import statsmodels.api as sm
+from statsmodels.formula.api import ols
+mod = ols(SepalLengthCm ~ Species,data=df.fit())
+aov_table = sm.stats.anova_lm(mod, typ=2)
+print aov_table
+
+{% endhighlight %}
+
+                 sum_sq     df           F        PR(>F)
+    Species   62.664897    2.0  117.454898  3.960429e-31
+    Residual  38.947184  146.0         NaN           NaN
+
+
+
+We can see that the p-value is less than our alpha 0.05 significance level we've chosen, which means we reject the null hypothesis that the differences between the means are not statistically significant and instead accept the alternative hypothesis that the differences between at least one of the means is statistically significant. Our extremely low p-value means that there is a 0.0000000000000000000000000000003% chance we are wrong in our decision to reject the null hypothesis.
+
+Next, we'll run post-hoc tests, such as Tukey's Honest Significant Difference test, to determine which species have significantly different means.
+
+##Post-hoc Tests
+###Tukey's Honest Significant Difference Test
+
+
+
+{% highlight python %}
+
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
+m_comp = pairwise_tukeyhsd(endog=df['SepalWidthCm'], groups=df['Species'], alpha=0.05)
+
+{% endhighlight %}
+
+Using an alpha of 0.05, we can see that the p adj value is less than our alpha in all three pairwise comparisons meaning there is a significant difference between all three species' means
