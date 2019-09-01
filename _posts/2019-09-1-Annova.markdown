@@ -4,9 +4,9 @@ title:  "Anova in Python"
 date:   2019-09-01 22:02:38 +0530
 categories: jekyll update
 ---
-#Anova in python
+# Anova in python
 
-##Introduction to ANOVA
+## Introduction to ANOVA
 
 Anova (Analysis of Variance) is a statistical method used to compare 
 the means of more than 2 groups. It is advised to use t-test for 2 group comparison. If number of groups are more than 2 then Anova is used.
@@ -24,7 +24,7 @@ ANOVA Hypotheses
 
 Note: In ANOVA, group, factors, and independent variables are similar terms
 
-##One-way (one factor) ANOVA
+## One-way (one factor) ANOVA
 
 The one-way ANOVA is used to test for differences among at least three groups.
 
@@ -36,7 +36,7 @@ We're going to use this dataset as a toy example and use Sepal Length as our res
 
 Next, let's perform our ANOVA test. 
 
-##Loading data
+## Loading data
 
 {% highlight python %}
 df = pd.read_csv(file)
@@ -221,7 +221,7 @@ df.boxplot('SepalLengthCm', by='Species', figsize=(12, 8))
 [Figure1](https://github.com/balakuntlaJayanth/Stats/blob/master/_posts/output_4_1.png)
 ![png](https://github.com/balakuntlaJayanth/Stats/blob/master/_posts/output_4_1.png)
 
-##ANOVA using statsmodel
+## ANOVA using statsmodel
 
 {% highlight python %}
 
@@ -243,8 +243,8 @@ We can see that the p-value is less than our alpha 0.05 significance level we've
 
 Next, we'll run post-hoc tests, such as Tukey's Honest Significant Difference test, to determine which species have significantly different means.
 
-##Post-hoc Tests
-##Tukey's Honest Significant Difference Test
+## Post-hoc Tests
+## Tukey's Honest Significant Difference Test
 
 
 
