@@ -218,8 +218,8 @@ df.boxplot('SepalLengthCm', by='Species', figsize=(12, 8))
 
 {% endhighlight %}
 
-
-![png](output_4_1.png)
+[Figure1](https://github.com/balakuntlaJayanth/Stats/blob/master/_posts/output_4_1.png)
+![png](https://github.com/balakuntlaJayanth/Stats/blob/master/_posts/output_4_1.png)
 
 ###ANOVA using statsmodel
 
