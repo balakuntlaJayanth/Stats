@@ -108,3 +108,16 @@ Number of pvalues retained from Benjamini Hochberg test will be much higher than
 
 In this example , False negative rate before correction (738/1000=0.738) is 0.738. After Bonferoni correction rate of false negatives increased to (897/1000=0.897) 0.897 whereas with BH method is (733/1000=0.733) is 0.733
 
+### References
+
+1. Hsu JC. Multiple comparisons: theory and methods. London: Chapman & Hall: CRC Press, 1996. 
+2. Bender R, Lange S. Adjusting for multiple testing—when and how? J Clin Epidemiol 2001;54:343-9. 10.1016/S0895-4356(00)00314-0 
+3. Thiese MS, Ronna B, Ott U. P value interpretations and considerations. J Thorac Dis 2016;8:E928-E931. 10.21037/jtd.2016.08.16 
+4. Farcomeni A. A review of modern multiple hypothesis testing, with particular attention to the false discovery proportion. Stat Methods Med Res 2008;17:347-88. 10.1177/0962280206079046 
+5. Bland JM, Altman DG. Multiple significance tests: the Bonferroni method. BMJ 1995;310:170. 10.1136/bmj.310.6973.170 
+6. Holm M. A simple sequentially rejective multiple test procedure. Scand J Statist 1979;6:65-70. 
+7. Hochberg Y. A sharper Bonferroni procedure for multiple tests of significance. Biometrika 1988;75:800-2. 10.1093/biomet/75.4.800 
+8. Simes RJ. An improved Bonferroni procedure for multiple tests of significance. Biometrika 1986;73:751-4. 10.1093/biomet/73.3.751 
+9. Hommel G. A stagewise rejective multiple test procedure based on a modified Bonferroni test. Biometrika 1988;75:383-6. 10.1093/biomet/75.2.383 
+10. Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Series B Stat Methodol 1995;57:289-300. 
+11. Benjamini Y, Yekutieli D. The control of the false discovery rate in multiple testing under dependency. Ann Stat 2001;29:1165-88. 
