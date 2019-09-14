@@ -8,7 +8,7 @@ categories: jekyll update
 # Adjustments for Multiple Hypothesis tests
 
 
-In business on scientific problem , which involves multiple groups difference between groups is always assesed from the statistical testing of hypothesis. Statistical tests derive  probability(p-value) based on the hypothesis. The acceptable values for significant levels are 0.05 and 0.01.
+In business or scientific problem which involves multiple groups, difference between groups is always assesed from the statistical testing of hypothesis. Statistical tests derive  probability(p-value) based on the hypothesis. The acceptable values for significant levels are 0.05 and 0.01.
 
 The probability of committing false statistical inferences would significantly increase when more than one hypothesis is simultaneously tested , which therefore requires proper correction .
 
@@ -18,9 +18,9 @@ There are 2 types of errors to be considered in multiple hypothesis tests
 
 **Type I error (False positive or probability of making mistake):** Null hypothesis is true but rejected
 
-**Type II error (False negative): **Null hypothesis is false but fail to be rejected
+**Type II error (False negative):** Null hypothesis is false but fail to be rejected
 
-For each hypothesis test there will be significance level .As the number of hypotheses increases, so too does the overall significance level for the set of tests because the individual significance levels accumulate. For a single hypothesis test at the α=0.05 level, the type 1 error rate is only 5%. There is only a 5% chance of erroneously rejecting the null hypothesis. For 2 hypothesis tests, however, the overall significance level becomes 0.10.
+For each hypothesis test there will be significance level(α) .As the number of hypotheses increases, so too does the overall significance level for the set of tests because the individual significance levels accumulate. For a single hypothesis test at the α=0.05 level, the type 1 error rate is only 5%. There is only a 5% chance of erroneously rejecting the null hypothesis. For 2 hypothesis tests, however, the overall significance level becomes 0.10.
  
 
 ### Advantages of Significance level correction
@@ -33,8 +33,7 @@ Family-wise error rate (FWER) is defined as a probability of getting at least on
 **For example:**
 If we perform 50 multiple tests at α=0.05, the probability of getting at least one significant result by chance is ~ 92% 
 
-P(at least one significant) = 1−P(no significant)
-= 1−(1−0.05)^50^∼ 0.92
+ = 1−(1−0.05)^50^ ∼ 0.92
 
 when correction applied to significance level, the probability of getting at least one significant result by chance is ~ 4% 
 
@@ -42,7 +41,7 @@ The new adjusted significance value :
 
  = 0.05/50 = 0.001 
 
-=1−(1−0.001)^50^∼0.04
+ = 1−(1−0.001)^50^ ∼ 0.04
 
 
 ### Benjamini and Hochberg technique  (FDR approach):
