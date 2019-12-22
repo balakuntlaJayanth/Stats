@@ -57,8 +57,7 @@ plt.scatter(x,y)
 
 
 
-![png](output_3_2.png)
-
+[Figure 1](https://github.com/balakuntlaJayanth/Stats/blob/master/images/output_3_2.png)
 
 ### Running simple linear Regression using statsmodel OLS
 
@@ -90,7 +89,7 @@ plt.plot(x,ypred)
 
 
 
-![png](output_5_1.png)
+[Figure 2](https://github.com/balakuntlaJayanth/Stats/blob/master/images/output_5_1.png)
 
 
 ### Generate Polynomials
@@ -158,7 +157,7 @@ plt.plot(x,ypred)
 
 
 
-![png](output_10_1.png)
+[Figure 3](https://github.com/balakuntlaJayanth/Stats/blob/master/images/output_10_1.png)
 
 
 ### Looks like even degree 3 polynomial isn't fitting well to our data
@@ -188,7 +187,7 @@ plt.plot(x,ypred)
 
 
 
-![png](output_12_1.png)
+[Figure 4](https://github.com/balakuntlaJayanth/Stats/blob/master/images/output_6_0.png)
 
 
 5 degree polynomial is adequatly fitting data. If we increase more degrees, model will overfit.
@@ -301,7 +300,7 @@ plt.legend(loc='upper left')
 
 
 
-![png](output_17_1.png)
+[Figure 5](https://github.com/balakuntlaJayanth/Stats/blob/master/images/output_17_1.png)
 
 
 ### References
