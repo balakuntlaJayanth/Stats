@@ -28,7 +28,7 @@ Equation says, there's a linear relationship between variable $x$ and $y$. Slope
   
   
 
-<img src="/images/P4/linear.png" width="300" class="center" />
+<img src="\images\P4\linear.png" width="300" class="center" />
 Image credits: Wikipedia
 
 **Bayesian Approach**
@@ -42,7 +42,7 @@ $y$ is observed as a Gaussian distribution with mean $ \mu\ $ and standard devia
 $$ \begin{array}{l}{\alpha \sim N\left(\mu_{\alpha}, \sigma_{\alpha}\right)} \\ {\beta \sim N\left(\mu_{\beta}, \sigma_{\beta}\right)} \\ {\varepsilon \sim U\left(0, h_{s}\right)}\end{array}$$
 
 
-<img src="/images/P4/bayesian.PNG" width="300" class="center" />
+<img src="\images\P4\bayesian.PNG" width="300" class="center" />
 Image credits: Osvaldo Martin's book: Bayesian Analysis with Python
 
 
@@ -77,7 +77,7 @@ plt.scatter(x, y)
 
 
 
-<img src="/images/P4/output_4_1.png">
+<img src="\images\P4\output_4_1.png">
 
 ### Create PyMC3 model
 
@@ -147,7 +147,7 @@ pm.traceplot(trace)
 
 
 
-<img src="/images/P4/output_12_1.png">
+<img src="\images\P4\output_12_1.png">
 
 
 ```python
@@ -179,7 +179,7 @@ pm.autocorrplot(trace)
 
 
 
-<img src="/images/P4/output_15_1.png">
+<img src="\images\P4\output_15_1.png">
 
 ### Comparing parameters with Simple Linear Regression (OLS)
 
@@ -204,7 +204,7 @@ plt.show()
     
 
 
-<img src="/images/P4/output_17_1.png">
+<img src="\images\P4\output_17_1.png">
 
 
 Parameters are almost similar for both pyMc3 and Simple Linear Regression
@@ -241,7 +241,7 @@ plt.show()
 ```
 
 
-<img src="/images/P4/output_20_0.png">
+<img src="\images\P4\output_20_0.png">
 
 ### Posterior Plots
 Plot Posterior densities in style of John K. Kruschke's book.
@@ -257,7 +257,7 @@ pm.plots.plot_posterior(trace)
 
 
 
-<img src="/images/P4/output_22_1.png">
+<img src="\images\P4\output_22_1.png">
 
 
 ### Forest Plots
@@ -276,7 +276,7 @@ pm.plots.forestplot(trace)
 
 
 
-<img src="/images/P4/output_24_1.png">
+<img src="\images\P4\output_24_1.png">
 
 ### Plotting energy distributions
 Plot energy transition distribution and marginal energy distribution in order to diagnose poor exploration by HMC algorithms. 
@@ -294,7 +294,7 @@ pm.plots.energyplot(trace)
 
 
 
-<img src="/images/P4/output_26_1.png">
+<img src="\images\P4\output_26_1.png">
 
 ### Density Plots
 Generates KDE plots for continuous variables. Plots are truncated at their 100*(1-alpha)% credible intervals.
@@ -310,7 +310,7 @@ pm.plots.densityplot(trace)
 
 
 
-<img src="/images/P4/output_28_1.png">
+<img src="\images\P4\output_28_1.png">
 
 ### Sampling from Posterior
 
@@ -336,7 +336,7 @@ ax.set(title='Posterior predictive of the mean', xlabel='mean(x)', ylabel='Frequ
 ```
 
 
-<img src="/images/P4/output_31_0.png">
+<img src="\images\P4\output_31_0.png">
 
 
 
@@ -379,7 +379,7 @@ plt.show()
 ```
 
 
-<img src="/images/P4/output_34_0.png">
+<img src="\images\P4\output_34_0.png">
 
 Similarily using 'posterior_predictive' samples, we can get various percentile values to plot.
 
@@ -415,7 +415,7 @@ plt.show()
 
 ```
 
-<img src="/images/P4/output_37_0.png">
+<img src="\images\P4\output_37_0.png">
 
 ### Source
 
