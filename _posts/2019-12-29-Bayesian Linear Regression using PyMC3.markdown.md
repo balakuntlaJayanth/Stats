@@ -27,7 +27,7 @@ $$ y = \alpha\ + \beta\ *x $$
 Equation says, there's a linear relationship between variable $x$ and $y$. Slope is controlled by $ \beta\ $ and intercept tells about value of $y$ when $x=0$ . Methods like Ordinary Least Squares, optimize the parameters to minimize the error between observed $y$ and predicted $y$. These methods only return single best value for parameters.
   
   
-[Figure1] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
+[Figure1](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
 Image credits: Wikipedia
 
 **Bayesian Approach**
@@ -41,7 +41,7 @@ $y$ is observed as a Gaussian distribution with mean $ \mu\ $ and standard devia
 $$ \begin{array}{l}{\alpha \sim N\left(\mu_{\alpha}, \sigma_{\alpha}\right)} \\ {\beta \sim N\left(\mu_{\beta}, \sigma_{\beta}\right)} \\ {\varepsilon \sim U\left(0, h_{s}\right)}\end{array}$$
 
 
-[Figure 2] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
+[Figure 2](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
 
 Image credits: Osvaldo Martin's book: Bayesian Analysis with Python
 
@@ -76,7 +76,7 @@ plt.scatter(x, y)
 
 
 
-[Figure 3] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_4_1.png)
+[Figure 3](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_4_1.png)
 
 
 ### Create PyMC3 model
@@ -144,7 +144,7 @@ pm.traceplot(trace)
 
 
 
-[Figure 4] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_12_1.png)
+[Figure 4](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_12_1.png)
 
 
 
@@ -177,7 +177,7 @@ pm.autocorrplot(trace)
 
 
 
-[Figure 5] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_15_1.png)
+[Figure 5](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_15_1.png)
 
 
 
@@ -203,7 +203,7 @@ plt.show()
     No handles with labels found to put in legend.
     
 
-[Figure 6] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_17_1.png)
+[Figure 6](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_17_1.png)
 
 
 
@@ -256,7 +256,7 @@ pm.plots.plot_posterior(trace)
 
 
 
-[Figure 7] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_22_1.png)
+[Figure 7](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_22_1.png)
 
 
 
@@ -274,7 +274,7 @@ pm.plots.forestplot(trace)
 
     GridSpec(1, 2, width_ratios=[3, 1])
 
-[Figure 8] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_24_1.png)
+[Figure 8](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_24_1.png)
 
 
 
@@ -292,7 +292,7 @@ pm.plots.energyplot(trace)
 
 
 
-[Figure 9] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_26_1.png)
+[Figure 9](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_26_1.png)
 
 
 
@@ -309,7 +309,7 @@ pm.plots.densityplot(trace)
 
 
 
-[Figure 10] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_28_1.png)
+[Figure 10](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_28_1.png)
 
 
 ### Sampling from Posterior
@@ -335,7 +335,7 @@ ax.axvline(y.mean())
 ax.set(title='Posterior predictive of the mean', xlabel='mean(x)', ylabel='Frequency');
 ```
 
-[Figure 11] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_31_0.png)
+[Figure 11](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_31_0.png)
 
 
 
@@ -379,7 +379,7 @@ plt.show()
 ```
 
 
-[Figure 12] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_34_0.png)
+[Figure 12](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_34_0.png)
 
 
 Similarily using 'posterior_predictive' samples, we can get various percentile values to plot.
@@ -416,7 +416,7 @@ plt.show()
 
 ```
 
-[Figure 13] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_37_0.png)
+[Figure 13](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_37_0.png)
 
 
 ### References
