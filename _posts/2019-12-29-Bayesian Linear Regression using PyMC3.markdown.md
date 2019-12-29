@@ -27,8 +27,7 @@ $$ y = \alpha\ + \beta\ *x $$
 Equation says, there's a linear relationship between variable $x$ and $y$. Slope is controlled by $ \beta\ $ and intercept tells about value of $y$ when $x=0$ . Methods like Ordinary Least Squares, optimize the parameters to minimize the error between observed $y$ and predicted $y$. These methods only return single best value for parameters.
   
   
-
-<img src="\images\P4\linear.png" width="300" class="center" />
+[Figure1] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
 Image credits: Wikipedia
 
 **Bayesian Approach**
@@ -42,7 +41,8 @@ $y$ is observed as a Gaussian distribution with mean $ \mu\ $ and standard devia
 $$ \begin{array}{l}{\alpha \sim N\left(\mu_{\alpha}, \sigma_{\alpha}\right)} \\ {\beta \sim N\left(\mu_{\beta}, \sigma_{\beta}\right)} \\ {\varepsilon \sim U\left(0, h_{s}\right)}\end{array}$$
 
 
-<img src="\images\P4\bayesian.PNG" width="300" class="center" />
+[Figure 2] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
+
 Image credits: Osvaldo Martin's book: Bayesian Analysis with Python
 
 
@@ -76,8 +76,8 @@ plt.scatter(x, y)
 
 
 
+[Figure 3] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_4_1.png)
 
-<img src="\images\P4\output_4_1.png">
 
 ### Create PyMC3 model
 
@@ -144,10 +144,10 @@ pm.traceplot(trace)
 
 
 
+[Figure 4] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_12_1.png)
 
 
 
-<img src="\images\P4\output_12_1.png">
 
 
 ```python
@@ -177,9 +177,9 @@ pm.autocorrplot(trace)
 
 
 
+[Figure 5] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_15_1.png)
 
 
-<img src="\images\P4\output_15_1.png">
 
 ### Comparing parameters with Simple Linear Regression (OLS)
 
@@ -203,8 +203,8 @@ plt.show()
     No handles with labels found to put in legend.
     
 
+[Figure 6] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_17_1.png)
 
-<img src="\images\P4\output_17_1.png">
 
 
 Parameters are almost similar for both pyMc3 and Simple Linear Regression
@@ -241,7 +241,8 @@ plt.show()
 ```
 
 
-<img src="\images\P4\output_20_0.png">
+[Figure 6] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_20_0.png)
+
 
 ### Posterior Plots
 Plot Posterior densities in style of John K. Kruschke's book.
@@ -255,9 +256,8 @@ pm.plots.plot_posterior(trace)
 
 
 
+[Figure 7] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_22_1.png)
 
-
-<img src="\images\P4\output_22_1.png">
 
 
 ### Forest Plots
@@ -274,9 +274,9 @@ pm.plots.forestplot(trace)
 
     GridSpec(1, 2, width_ratios=[3, 1])
 
+[Figure 8] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_24_1.png)
 
 
-<img src="\images\P4\output_24_1.png">
 
 ### Plotting energy distributions
 Plot energy transition distribution and marginal energy distribution in order to diagnose poor exploration by HMC algorithms. 
@@ -292,9 +292,9 @@ pm.plots.energyplot(trace)
 
 
 
+[Figure 9] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_26_1.png)
 
 
-<img src="\images\P4\output_26_1.png">
 
 ### Density Plots
 Generates KDE plots for continuous variables. Plots are truncated at their 100*(1-alpha)% credible intervals.
@@ -309,8 +309,8 @@ pm.plots.densityplot(trace)
 
 
 
+[Figure 10] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_28_1.png)
 
-<img src="\images\P4\output_28_1.png">
 
 ### Sampling from Posterior
 
@@ -335,8 +335,8 @@ ax.axvline(y.mean())
 ax.set(title='Posterior predictive of the mean', xlabel='mean(x)', ylabel='Frequency');
 ```
 
+[Figure 11] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_31_0.png)
 
-<img src="\images\P4\output_31_0.png">
 
 
 
@@ -379,7 +379,8 @@ plt.show()
 ```
 
 
-<img src="\images\P4\output_34_0.png">
+[Figure 12] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_34_0.png)
+
 
 Similarily using 'posterior_predictive' samples, we can get various percentile values to plot.
 
@@ -415,10 +416,13 @@ plt.show()
 
 ```
 
-<img src="\images\P4\output_37_0.png">
+[Figure 13] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_37_0.png)
 
-### Source
 
-You can find jupyter notebook [here]
+### References
+
+- https://docs.pymc.io/nb_tutorials/index.html
+- Kruschke, John. Doing Bayesian data analysis: A tutorial with R, JAGS, and Stan. Academic Press, 2014.
+- https://github.com/aloctavodia/Doing_bayesian_data_analysis
 
 
