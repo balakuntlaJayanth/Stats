@@ -38,7 +38,7 @@ Image credits: Wikipedia
  
  The same problem can be stated under probablistic framework. We can obtain best values of alpha and  beta along with their uncertainity estimations. Probablistically linear regression can be explained as : 
  
-y ~ N(mu=alpha+beta x, sigma=varepsilon)
+y ~ N(mu=alpha+beta x, sigma=epsilon)
 
 y is observed as a Gaussian distribution with mean mu and standard deviation sigma. Unlike OLS regression, here it is normally distibuted. Since we do not know the values of alpha , beta and  epsilon, we have to set prior distributions for them. 
 
