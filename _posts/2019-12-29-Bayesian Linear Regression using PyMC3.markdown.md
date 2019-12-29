@@ -22,9 +22,13 @@ If the regression model has errors with the assumption of normal distribution , 
 
 In simple linear regression we get point estimates by
 
-$$ y = \alpha\ + \beta\ *x $$
 
-Equation says, there's a linear relationship between variable $x$ and $y$. Slope is controlled by $ \beta\ $ and intercept tells about value of $y$ when $x=0$ . Methods like Ordinary Least Squares, optimize the parameters to minimize the error between observed $y$ and predicted $y$. These methods only return single best value for parameters.
+y = alpha + beta *x 
+
+
+
+
+Equation says, there's a linear relationship between variable 'x' and "y". Slope is controlled by beta and intercept tells about value of "y" when "x=0" . Methods like Ordinary Least Squares, optimize the parameters to minimize the error between observed "y" and predicted "y". These methods only return single best value for parameters.
   
   
 [Figure1](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
@@ -32,13 +36,13 @@ Image credits: Wikipedia
 
 **Bayesian Approach**
  
- The same problem can be stated under probablistic framework. We can obtain best values of $ \alpha\ $  and $ \beta\ $ along with their uncertainity estimations. Probablistically linear regression can be explained as : 
+ The same problem can be stated under probablistic framework. We can obtain best values of alpha and  beta along with their uncertainity estimations. Probablistically linear regression can be explained as : 
  
-$$ y \sim N(\mu=\alpha+\beta x, \sigma=\varepsilon) $$
+y ~ N(mu=alpha+beta x, sigma=varepsilon)
 
-$y$ is observed as a Gaussian distribution with mean $ \mu\ $ and standard deviation $ \sigma\ $. Unlike OLS regression, here it is normally distibuted. Since we do not know the values of $ \alpha\ $  , $ \beta\ $ and $ \epsilon\ $, we have to set prior distributions for them. 
+y is observed as a Gaussian distribution with mean mu and standard deviation sigma. Unlike OLS regression, here it is normally distibuted. Since we do not know the values of alpha , beta and  epsilon, we have to set prior distributions for them. 
 
-$$ \begin{array}{l}{\alpha \sim N\left(\mu_{\alpha}, \sigma_{\alpha}\right)} \\ {\beta \sim N\left(\mu_{\beta}, \sigma_{\beta}\right)} \\ {\varepsilon \sim U\left(0, h_{s}\right)}\end{array}$$
+
 
 
 [Figure 2](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/linear.PNG)
@@ -241,7 +245,7 @@ plt.show()
 ```
 
 
-[Figure 6] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_20_0.png)
+[Figure 6](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P4/output_20_0.png)
 
 
 ### Posterior Plots
