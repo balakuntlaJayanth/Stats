@@ -69,7 +69,7 @@ plt.imshow(x, cmap='gray')
 
 
 
-![png](output_7_1.png)
+[Figure 1] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P5/output_7_1.png)
 
 
 You can see that height and width of the matrix is 18x18, same as height and width of above image. So, each pixel is represented by number. 
@@ -120,7 +120,7 @@ plt.imshow(cv2.cvtColor(cat, cv2.COLOR_BGR2RGB))
 
 
 
-![png](output_11_1.png)
+[Figure 2] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P5/output_11_1.png)
 
 
 
@@ -148,7 +148,7 @@ plt.imshow(cat_r)
 
 
 
-![png](output_14_1.png)
+[Figure 3] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P5/output_14_1.png)
 
 
 
@@ -166,7 +166,7 @@ plt.imshow(cat_g)
 
 
 
-![png](output_15_1.png)
+[Figure 4](https://github.com/balakuntlaJayanth/Stats/blob/master/images/P5/output_15_1.png)
 
 
 
@@ -184,7 +184,7 @@ plt.imshow(cat_b)
 
 
 
-![png](output_16_1.png)
+[Figure 5] (https://github.com/balakuntlaJayanth/Stats/blob/master/images/P5/output_16_1.png)
 
 
 
