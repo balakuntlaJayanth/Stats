@@ -8,7 +8,7 @@ categories: jekyll update
 
 ## Image Processing using Python - II
 
-In todays blog we will discuss some basic image manipulation techniques such as 
+In today's blog we will discuss some basic image manipulation techniques such as 
 
 - Loading and Saving Images
 - Scalling Images
@@ -20,7 +20,7 @@ Loading Images is one of the essential preliminary step in image processing. Ope
 
 imread reads image from a specific path and stores image data in the form of numpy array. 
 
-Matplotlib provides the essential functional of displaying the images in RGB mode.
+Matplotlib provides the essential functionality of displaying the images in RGB mode.
 
 Loading essential libraries in python
 
@@ -231,5 +231,7 @@ plt.imshow(cv2.cvtColor(flip2, cv2.COLOR_BGR2RGB))
 
 ### References
 
-https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
+- https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
+- https://c402277.ssl.cf1.rackcdn.com/photos/18134/images/hero_small/Medium_WW226365.jpg?1574452099
+- https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
 
