@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fisher Exact Test"
-date:   2019-09-15 22:02:38 +0530
+date:   2019-02-23 22:02:38 +0530
 categories: jekyll update
 ---
 
