@@ -33,6 +33,13 @@ The null and alternative hypothesis for the correlation is:
 - H0: The correlation coefficient is equal to zero. No correlation between 2 variables .
 - H1: The population correlation coefficient is not equal to zero. There is significant correlation between 2 variables.
 
+### Pearson correlation in Python
+
+Data used for analysis contains 200 subjects.
+
+Data can be downloaded from link given below.
+
+https://github.com/balakuntlaJayanth/Stats/blob/master/images/Mar1_2020/data_corr.csv
 
 ```python
 import numpy as np
@@ -238,7 +245,7 @@ plt.tight_layout()
 ![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/Mar1_2020/output_7_0.png)
 
 
-Fig 1 : Scatterplot between A and B. Scatterplot represents the strong positive corelation between A and B
+Fig 1 : Scatterplot between A and B. Scatterplot represents the strong positive correlation between A and B
 
 ## Pairwise correlations between all columns
 
@@ -950,7 +957,7 @@ corrs.sort_values(by=['p-unc'])[['X', 'Y', 'n', 'r', 'p-unc']].head()
 
 
 
-The above table represents the corelation between subset of the columns
+The above table represents the correlation between subset of the columns
 
 
 ```python
@@ -1028,7 +1035,7 @@ corrs.sort_values(by=['p-unc'])[['X', 'Y', 'r', 'p-unc']].head()
 
 
 
-The above table represents the corelation between IQ and other variables considered(C to F).
+The above table represents the correlation between IQ and other variables considered(C to F).
 
 ## Correlation matrix
 
