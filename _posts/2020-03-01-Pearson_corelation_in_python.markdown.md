@@ -13,7 +13,7 @@ categories: jekyll update
 
 <p style='text-align: justify;'>The r value measures the strength, direction and probability of linear association between two intervals.</p>
 
-<p style='text-align: justify;'>In essense pearson corelation (r) is a measure of linear relationship between 2 intervals between 2 samples. It can have values that can range between +1 and -1.</p>
+<p style='text-align: justify;'>In essense pearson correlation (r) is a measure of linear relationship between 2 intervals between 2 samples. It can have values that can range between +1 and -1.</p>
 
 ### Assumptions of Pearson Correlation
 
