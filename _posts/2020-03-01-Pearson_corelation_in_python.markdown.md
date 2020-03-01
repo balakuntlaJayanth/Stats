@@ -18,7 +18,7 @@ categories: jekyll update
 ### Assumptions of Pearson Correlation
 
 - Each Variables considered of correlation should be continuous related pair .
-- <p style='text-align: justify;'>The variable considered for corelation should not have missing values in any of the conditions considered for corelation. For example In a typical agriculture experiment when calculating the correlation between plant height and yield with sample size of 100. All 100 plant observations should have values for height and yield.</p>
+- <p style='text-align: justify;'>The variable considered for correlation should not have missing values in any of the conditions considered for correlation. For example In a typical agriculture experiment when calculating the correlation between plant height and yield with sample size of 100. All 100 plant observations should have values for height and yield.</p>
 - <p style='text-align: justify;'>Absence of outliers refers to not having outliers in either variable. Having an outlier can skew the results of the correlation by pulling the line of best fit formed by the correlation too far in one direction or another.</p>
 - Pearson correlation assumes linearity and Normality of the data
 
