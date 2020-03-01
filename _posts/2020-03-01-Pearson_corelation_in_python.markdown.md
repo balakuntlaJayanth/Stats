@@ -17,10 +17,10 @@ categories: jekyll update
 
 ### Assumptions of Pearson Correlation
 
-- Each Variables considered of corelation should be continuous related pair .
-- <p style='text-align: justify;'>The variable considered for corelation should not have missing values in any of the conditions considered for corelation. For example In a typical agriculture experiment when calculating the coorelation between plant height and yield with sample size of 100. All 100 plant observations should have values for height and yield.</p>
+- Each Variables considered of correlation should be continuous related pair .
+- <p style='text-align: justify;'>The variable considered for corelation should not have missing values in any of the conditions considered for corelation. For example In a typical agriculture experiment when calculating the correlation between plant height and yield with sample size of 100. All 100 plant observations should have values for height and yield.</p>
 - <p style='text-align: justify;'>Absence of outliers refers to not having outliers in either variable. Having an outlier can skew the results of the correlation by pulling the line of best fit formed by the correlation too far in one direction or another.</p>
-- Pearson corelation assumes linearity and Normality of the data
+- Pearson correlation assumes linearity and Normality of the data
 
 - Linearity and homoscedasticity refer to the shape formed by the scatterplot. For linearity, a “straight line” relationship between 2 variables. 
 - Homoscedasticity refers to the distance between the points to that straight line. 
@@ -153,8 +153,8 @@ which range from A to G.
 
 **Is A significantly correlated to B?**
 
-H0 : No corelation between A and B
-H1 : Significant corelation between A and B
+H0 : No correlation between A and B
+H1 : Significant correlation between A and B
 
 
 ```python
@@ -218,9 +218,9 @@ pg.corr(x=df['A'], y=df['B'])
 - <p style='text-align: justify;'>BF10 is the Bayes Factor of the test. The Bayes Factor represents the strength of the corelation. The BF10 value of 2 indicates the Anecdotal evidence for alternate hypothesis (H1).</p>
 - <p style='text-align: justify;'>power is the achieved power of the test, which is the likelihood that we will detect an effect when there is indeed an effect there to be detected. The higher this value is, the more robust our test is. In that case, a value of 1 means that we can be greatly confident in our ability to detect the significant effect.</p>
 
-In the above analysis p-value is less than 0.05 and r is around 0.447, which suggests significant corelation.
+In the above analysis p-value is less than 0.05 and r is around 0.447, which suggests significant correlation.
 
-We reject null hypothesis based on the pvalue and corelation coeficient r.
+We reject null hypothesis based on the pvalue and correlation coeficient r.
 
 
 ```python
@@ -866,7 +866,7 @@ pg.pairwise_corr(df)
 
 
 
-The above table represents the coorelation between all the elements.
+The above table represents the correlation between all the elements.
 
 
 ```python
@@ -1032,7 +1032,7 @@ The above table represents the corelation between IQ and other variables conside
 
 ## Correlation matrix
 
-The corelation matrix represents the corelation between all the values.
+The correlation matrix represents the correlation between all the values.
 
 
 ```python
@@ -1436,7 +1436,7 @@ df[['C', 'D', 'E', 'F', 'G']].rcorr()
 </table>
 </div>
 
-The above tables represent the pvalue . The pvalue' s can be used to infer corelation.
+The above tables represent the pvalue . The pvalue' s can be used to infer correlation.
 
 ### References
 
