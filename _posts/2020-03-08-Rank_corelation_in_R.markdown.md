@@ -19,7 +19,7 @@ The Pearson correlation is one of the preferred and most common correlation anal
 <p style='text-align: justify;'> In this method correlation is based on the rank of the value . In case of identical values average of ranks is considered instead of original rank. </p>
 
 <p style='text-align: justify;'> The Spearman Rank Correlation is robust to outliers. 
-The rank correlation is invariant for any transformation of the data, such as LOG, EXP, and SQRT. </p>
+The rank correlation remains unchanged for any transformation of the data, such as LOG, EXP, and SQRT. </p>
 
 ### Null and Alternate Hypothesis
 
