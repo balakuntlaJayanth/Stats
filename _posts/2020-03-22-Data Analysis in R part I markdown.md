@@ -22,8 +22,13 @@ head(df)
 <table>
 <caption>A data.frame: 6 × 5</caption>
 <thead>
-	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
-	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+<tr>
+<th>subject</th>
+<th>age</th>
+<th>sex</th>
+<th>height</th>
+<th>weight</th>
+</tr>
 </thead>
 <tbody>
 	<tr><td>P </td><td>20</td><td>M </td><td>172</td><td>11.20</td></tr>
@@ -59,8 +64,13 @@ head(df, 4)
 <table>
 <caption>A data.frame: 4 × 5</caption>
 <thead>
-	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
-	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+<tr>
+<th>subject</th>
+<th>age</th>
+<th>sex</th>
+<th>height</th>
+<th>weight</th>
+</tr>
 </thead>
 <tbody>
 	<tr><td>P </td><td>20</td><td>M</td><td>172</td><td>11.20</td></tr>
@@ -96,7 +106,13 @@ is.na(df)
 <table>
 <caption>A matrix: 6 × 5 of type lgl</caption>
 <thead>
-	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
+<tr>
+<th>subject</th>
+<th>age</th>
+<th>sex</th>
+<th>height</th>
+<th>weight</th>
+</tr>
 </thead>
 <tbody>
 	<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
@@ -119,7 +135,10 @@ which(is.na(df), arr.ind=T)
 <table>
 <caption>A matrix: 1 × 2 of type int</caption>
 <thead>
-	<tr><th scope=col>row</th><th scope=col>col</th></tr>
+<tr>
+<th>col</th>
+<th>row</th>
+</tr>
 </thead>
 <tbody>
 	<tr><td>5</td><td>3</td></tr>
@@ -140,8 +159,3 @@ boxplot(df$speed, main="Speed (ms)", cex.lab=2.0, cex.axis=2.0, cex.main=1.6, ce
 
 
 ![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/Mar22_2020/output_7_0.png?raw=true)
-
-
-
-```
-
