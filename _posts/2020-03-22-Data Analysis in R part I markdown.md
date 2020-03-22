@@ -9,7 +9,7 @@ categories: jekyll update
 Generating data in R.
 
 ```R
-df<-data.frame(subject=as.factor(c("P","A","J","Pe","Al","Ca")), age=as.numeric(c(20, 16, 19, 99, 23, 18)), sex=as.factor(c("M","F","F","M",NA,"F")), height=as.numeric(c(172, 181, 165, 168, 177, 178)), speed=as.numeric(c(11.20,3.00,11.50,10.35,10.98,13.05)))
+df <- read.table('data.txt')
 ```
 
 Check the data.frame df by simply typing in
