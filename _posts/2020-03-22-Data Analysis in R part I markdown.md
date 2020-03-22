@@ -25,13 +25,14 @@ head(df)
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>subject</th>
       <th>age</th>
       <th>sex</th>
       <th>height</th>
       <th>speed</th>
     </tr>
   </thead>
+  </thread>
 <tbody>
 	<tr><td>P </td><td>20</td><td>M </td><td>172</td><td>11.20</td></tr>
 	<tr><td>A </td><td>16</td><td>F </td><td>181</td><td> 3.00</td></tr>
@@ -67,7 +68,7 @@ head(df, 4)
 <caption>A data.frame: 4 × 5</caption>
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>subject</th>
       <th>age</th>
       <th>sex</th>
       <th>height</th>
@@ -109,7 +110,7 @@ is.na(df)
 <caption>A matrix: 6 × 5 of type lgl</caption>
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>subject</th>
       <th>age</th>
       <th>sex</th>
       <th>height</th>
@@ -138,7 +139,6 @@ which(is.na(df), arr.ind=T)
 <caption>A matrix: 1 × 2 of type int</caption>
 <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>row</th>
       <th>col</th>
      </thead>
