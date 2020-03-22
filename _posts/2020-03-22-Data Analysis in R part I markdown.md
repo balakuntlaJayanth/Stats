@@ -8,31 +8,23 @@ categories: jekyll update
 ## DATA ANALYSIS in R part I
 Generating data in R.
 
+
 ```R
-df <- read.table('data.txt')
+df<-data.frame(subject=as.factor(c("P","A","J","Pe","Al","Ca")), age=as.numeric(c(20, 16, 19, 99, 23, 18)), sex=as.factor(c("M","F","F","M",NA,"F")), height=as.numeric(c(172, 181, 165, 168, 177, 178)), speed=as.numeric(c(11.20,3.00,11.50,10.35,10.98,13.05)))
 ```
 
-Check the data.frame df by simply typing in
 
 ```R
 head(df)
 ```
 
+
 <table>
 <caption>A data.frame: 6 × 5</caption>
 <thead>
-	</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>subject</th>
-      <th>age</th>
-      <th>sex</th>
-      <th>height</th>
-      <th>speed</th>
-    </tr>
-  </thead>
-  </thread>
+	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
 <tbody>
 	<tr><td>P </td><td>20</td><td>M </td><td>172</td><td>11.20</td></tr>
 	<tr><td>A </td><td>16</td><td>F </td><td>181</td><td> 3.00</td></tr>
@@ -44,7 +36,7 @@ head(df)
 </table>
 
 
-The data has 6 rows and 5 columns:
+
 
 ```R
 dim(df)
@@ -56,7 +48,7 @@ dim(df)
 	<li>5</li>
 </ol>
 
-If our data set big restrict to  first few lines. By default it returns first 5 lines. In some cases we want to observe more lines
+
 
 
 ```R
@@ -66,15 +58,10 @@ head(df, 4)
 
 <table>
 <caption>A data.frame: 4 × 5</caption>
-  <thead>
-    <tr style="text-align: right;">
-      <th>subject</th>
-      <th>age</th>
-      <th>sex</th>
-      <th>height</th>
-      <th>speed</th>
-    </tr>
-  </thead>
+<thead>
+	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
 <tbody>
 	<tr><td>P </td><td>20</td><td>M</td><td>172</td><td>11.20</td></tr>
 	<tr><td>A </td><td>16</td><td>F</td><td>181</td><td> 3.00</td></tr>
@@ -84,7 +71,7 @@ head(df, 4)
 </table>
 
 
-To inspect the structure of the data. Some basic statistics can be given by the summary command.
+
 
 ```R
 summary(df)
@@ -99,7 +86,7 @@ summary(df)
      P :1    3rd Qu.:22.25            3rd Qu.:177.8   3rd Qu.:11.43  
      Pe:1    Max.   :99.00            Max.   :181.0   Max.   :13.05  
 
-To examine if missing values (NA) are in the data:
+
 
 ```R
 is.na(df)
@@ -108,15 +95,9 @@ is.na(df)
 
 <table>
 <caption>A matrix: 6 × 5 of type lgl</caption>
-  <thead>
-    <tr style="text-align: right;">
-      <th>subject</th>
-      <th>age</th>
-      <th>sex</th>
-      <th>height</th>
-      <th>speed</th>
-    </tr>
-  </thead>
+<thead>
+	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
+</thead>
 <tbody>
 	<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
 	<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
@@ -138,17 +119,15 @@ which(is.na(df), arr.ind=T)
 <table>
 <caption>A matrix: 1 × 2 of type int</caption>
 <thead>
-    <tr style="text-align: right;">
-      <th>row</th>
-      <th>col</th>
-     </thead>
+	<tr><th scope=col>row</th><th scope=col>col</th></tr>
+</thead>
 <tbody>
 	<tr><td>5</td><td>3</td></tr>
 </tbody>
 </table>
 
 
-We can use boxplots to see outliers and distribution of values:
+
 
 ```R
 par(mfrow=c(1,3))
@@ -159,11 +138,10 @@ boxplot(df$speed, main="Speed (ms)", cex.lab=2.0, cex.axis=2.0, cex.main=1.6, ce
 ```
 
 
+
 ![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/Mar22_2020/output_7_0.png?raw=true)
 
 
 
-```R
-boxplot(df,cex.lab=2.0, cex.axis=2.0, cex.main=1.6, cex=2.0)
 ```
 
