@@ -18,13 +18,20 @@ Check the data.frame df by simply typing in
 head(df)
 ```
 
-
 <table>
 <caption>A data.frame: 6 × 5</caption>
 <thead>
-	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
-
-</thead>
+	</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>age</th>
+      <th>sex</th>
+      <th>height</th>
+      <th>speed</th>
+    </tr>
+  </thead>
 <tbody>
 	<tr><td>P </td><td>20</td><td>M </td><td>172</td><td>11.20</td></tr>
 	<tr><td>A </td><td>16</td><td>F </td><td>181</td><td> 3.00</td></tr>
@@ -58,10 +65,15 @@ head(df, 4)
 
 <table>
 <caption>A data.frame: 4 × 5</caption>
-<thead>
-	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
-	
-</thead>
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>age</th>
+      <th>sex</th>
+      <th>height</th>
+      <th>speed</th>
+    </tr>
+  </thead>
 <tbody>
 	<tr><td>P </td><td>20</td><td>M</td><td>172</td><td>11.20</td></tr>
 	<tr><td>A </td><td>16</td><td>F</td><td>181</td><td> 3.00</td></tr>
@@ -95,9 +107,15 @@ is.na(df)
 
 <table>
 <caption>A matrix: 6 × 5 of type lgl</caption>
-<thead>
-	<tr><th scope=col>subject</th><th scope=col>age</th><th scope=col>sex</th><th scope=col>height</th><th scope=col>speed</th></tr>
-</thead>
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>age</th>
+      <th>sex</th>
+      <th>height</th>
+      <th>speed</th>
+    </tr>
+  </thead>
 <tbody>
 	<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
 	<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
@@ -119,8 +137,11 @@ which(is.na(df), arr.ind=T)
 <table>
 <caption>A matrix: 1 × 2 of type int</caption>
 <thead>
-	<tr><th scope=col>row</th><th scope=col>col</th></tr>
-</thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>row</th>
+      <th>col</th>
+     </thead>
 <tbody>
 	<tr><td>5</td><td>3</td></tr>
 </tbody>
