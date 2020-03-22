@@ -48,7 +48,7 @@ dim(df)
 ```
 
 
-<ol class=list-inline>
+<ol list-inline>
 	<li>6</li>
 	<li>5</li>
 </ol>
@@ -159,3 +159,6 @@ boxplot(df$speed, main="Speed (ms)", cex.lab=2.0, cex.axis=2.0, cex.main=1.6, ce
 
 
 ![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/Mar22_2020/output_7_0.png?raw=true)
+
+### References
+- https://cran.r-project.org/doc/manuals/r-release/R-intro.html
