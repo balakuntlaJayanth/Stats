@@ -42,8 +42,8 @@ head(chicago)
 <table>
 <caption>A data.frame: 6 × 8</caption>
 <thead>
-	<tr><th scope=col>city</th><th scope=col>tmpd</th><th scope=col>dptp</th><th scope=col>date</th><th scope=col>pm25tmean2</th><th scope=col>pm10tmean2</th><th scope=col>o3tmean2</th><th scope=col>no2tmean2</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th  >city</th><th  >tmpd</th><th  >dptp</th><th  >date</th><th  >pm25tmean2</th><th  >pm10tmean2</th><th  >o3tmean2</th><th  >no2tmean2</th></tr>
+	<tr><th  >&lt;chr&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;date&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>chic</td><td>31.5</td><td>31.500</td><td>1987-01-01</td><td>NA</td><td>34.00000</td><td>4.250000</td><td>19.98810</td></tr>
@@ -119,8 +119,8 @@ head(chicago)
 <table>
 <caption>A data.frame: 6 × 8</caption>
 <thead>
-	<tr><th scope=col>city</th><th scope=col>tmpd</th><th scope=col>dptp</th><th scope=col>date</th><th scope=col>pm25tmean2</th><th scope=col>pm10tmean2</th><th scope=col>o3tmean2</th><th scope=col>no2tmean2</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th  >city</th><th  >tmpd</th><th  >dptp</th><th  >date</th><th  >pm25tmean2</th><th  >pm10tmean2</th><th  >o3tmean2</th><th  >no2tmean2</th></tr>
+	<tr><th  >&lt;chr&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;date&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>chic</td><td>31.5</td><td>31.500</td><td>1987-01-01</td><td>NA</td><td>34.00000</td><td>4.250000</td><td>19.98810</td></tr>
@@ -143,8 +143,8 @@ select(chicago, -(city:dptp))
 <table>
 <caption>A data.frame: 6940 × 5</caption>
 <thead>
-	<tr><th scope=col>date</th><th scope=col>pm25tmean2</th><th scope=col>pm10tmean2</th><th scope=col>o3tmean2</th><th scope=col>no2tmean2</th></tr>
-	<tr><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th  >date</th><th  >pm25tmean2</th><th  >pm10tmean2</th><th  >o3tmean2</th><th  >no2tmean2</th></tr>
+	<tr><th  >&lt;date&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>1987-01-01</td><td>NA</td><td>34.00000</td><td> 4.250000</td><td>19.98810</td></tr>
@@ -222,8 +222,8 @@ select(chicago, (city:dptp))
 <table>
 <caption>A data.frame: 6940 × 3</caption>
 <thead>
-	<tr><th scope=col>city</th><th scope=col>tmpd</th><th scope=col>dptp</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th  >city</th><th  >tmpd</th><th  >dptp</th></tr>
+	<tr><th  >&lt;chr&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>chic</td><td>31.5</td><td> 31.500</td></tr>
@@ -320,8 +320,8 @@ head(subset)
 <table>
 <caption>A data.frame: 6 × 4</caption>
 <thead>
-	<tr><th scope=col>pm25tmean2</th><th scope=col>pm10tmean2</th><th scope=col>o3tmean2</th><th scope=col>no2tmean2</th></tr>
-	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th  >pm25tmean2</th><th  >pm10tmean2</th><th  >o3tmean2</th><th  >no2tmean2</th></tr>
+	<tr><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>NA</td><td>34.00000</td><td>4.250000</td><td>19.98810</td></tr>
@@ -360,8 +360,8 @@ list(chic.f)
 	<li><table>
 <caption>A data.frame: 194 × 8</caption>
 <thead>
-	<tr><th scope=col>city</th><th scope=col>tmpd</th><th scope=col>dptp</th><th scope=col>date</th><th scope=col>pm25tmean2</th><th scope=col>pm10tmean2</th><th scope=col>o3tmean2</th><th scope=col>no2tmean2</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th  >city</th><th  >tmpd</th><th  >dptp</th><th  >date</th><th  >pm25tmean2</th><th  >pm10tmean2</th><th  >o3tmean2</th><th  >no2tmean2</th></tr>
+	<tr><th  >&lt;chr&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;date&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>chic</td><td>23</td><td>21.9</td><td>1998-01-17</td><td>38.10000</td><td>32.46154</td><td> 3.1805556</td><td>25.30000</td></tr>
@@ -670,8 +670,8 @@ head(chicago)
 <table>
 <caption>A data.frame: 6 × 8</caption>
 <thead>
-	<tr><th scope=col>city</th><th scope=col>tmpd</th><th scope=col>dewpoint</th><th scope=col>date</th><th scope=col>pm25</th><th scope=col>pm10tmean2</th><th scope=col>o3tmean2</th><th scope=col>no2tmean2</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th  >city</th><th  >tmpd</th><th  >dewpoint</th><th  >date</th><th  >pm25</th><th  >pm10tmean2</th><th  >o3tmean2</th><th  >no2tmean2</th></tr>
+	<tr><th  >&lt;chr&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;date&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th><th  >&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>chic</td><td>31.5</td><td>31.500</td><td>1987-01-01</td><td>NA</td><td>34.00000</td><td>4.250000</td><td>19.98810</td></tr>
