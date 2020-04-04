@@ -35,8 +35,8 @@ head(environmental)
 <table>
 <caption>A data.frame: 6 × 4</caption>
 <thead>
-	<tr><th scope=col>ozone</th><th scope=col>radiation</th><th scope=col>temperature</th><th scope=col>wind</th></tr>
-	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+	<tr><th>ozone</th><th>radiation</th><th>temperature</th><th>wind</th></tr>
+	<tr><th>&lt;dbl&gt;</th><th>&lt;dbl&gt;</th><th>&lt;dbl&gt;</th><th>&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
 	<tr><td>41</td><td>190</td><td>67</td><td> 7.4</td></tr>
