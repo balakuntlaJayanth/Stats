@@ -172,3 +172,5 @@ ggplot(df1,aes(x=weightLb,y=heightIn,color=ageYear,fill=ageYear)) + geom_point()
 
 
 
+### References
+- https://www.r-graph-gallery.com/272-basic-scatterplot-with-ggplot2.html
