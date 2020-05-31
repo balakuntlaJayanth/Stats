@@ -56,15 +56,15 @@ head(ReadCount_m)
 <table>
 <caption>A matrix: 6 × 56 of type int</caption>
 <thead>
-	<tr><th></th><th scope=col>Sample1</th><th scope=col>Sample2</th><th scope=col>Sample3</th><th scope=col>Sample4</th><th scope=col>Sample5</th><th scope=col>Sample6</th><th scope=col>Sample7</th><th scope=col>Sample8</th><th scope=col>Sample9</th><th scope=col>Sample10</th><th scope=col>⋯</th><th scope=col>Sample47</th><th scope=col>Sample48</th><th scope=col>Sample49</th><th scope=col>Sample50</th><th scope=col>Sample51</th><th scope=col>Sample52</th><th scope=col>Sample53</th><th scope=col>Sample54</th><th scope=col>Sample55</th><th scope=col>Sample56</th></tr>
+	<tr><th></th><th >Sample1</th><th >Sample2</th><th >Sample3</th><th >Sample4</th><th >Sample5</th><th >Sample6</th><th >Sample7</th><th >Sample8</th><th >Sample9</th><th >Sample10</th><th >⋯</th><th >Sample47</th><th >Sample48</th><th >Sample49</th><th >Sample50</th><th >Sample51</th><th >Sample52</th><th >Sample53</th><th >Sample54</th><th >Sample55</th><th >Sample56</th></tr>
 </thead>
 <tbody>
-	<tr><th scope=row>GeneA</th><td>30</td><td>67</td><td>34</td><td>98</td><td>32</td><td> 3</td><td>79</td><td>15</td><td> 6</td><td>18</td><td>⋯</td><td>97</td><td>49</td><td>12</td><td> 6</td><td>87</td><td>58</td><td>55</td><td>13</td><td>48</td><td>28</td></tr>
-	<tr><th scope=row>GeneB</th><td>80</td><td>70</td><td>28</td><td>51</td><td>74</td><td>76</td><td>85</td><td>98</td><td> 7</td><td>64</td><td>⋯</td><td>45</td><td>69</td><td> 1</td><td> 9</td><td> 8</td><td>49</td><td>97</td><td> 5</td><td>83</td><td>66</td></tr>
-	<tr><th scope=row>GeneC</th><td>43</td><td>36</td><td>41</td><td>24</td><td>71</td><td>76</td><td>91</td><td>50</td><td>81</td><td>57</td><td>⋯</td><td>21</td><td>10</td><td>75</td><td>35</td><td>77</td><td>92</td><td>85</td><td>73</td><td>97</td><td>12</td></tr>
-	<tr><th scope=row>GeneD</th><td>88</td><td>66</td><td>57</td><td> 8</td><td>11</td><td>91</td><td>71</td><td>84</td><td>89</td><td>63</td><td>⋯</td><td>12</td><td>16</td><td>61</td><td>42</td><td>48</td><td>96</td><td>26</td><td>84</td><td>75</td><td>78</td></tr>
-	<tr><th scope=row>GeneE</th><td>90</td><td>57</td><td>73</td><td>51</td><td>86</td><td>32</td><td>22</td><td>78</td><td>84</td><td>31</td><td>⋯</td><td>37</td><td>40</td><td> 1</td><td>37</td><td>74</td><td>79</td><td>89</td><td>79</td><td>68</td><td>42</td></tr>
-	<tr><th scope=row>GeneF</th><td>31</td><td>87</td><td>65</td><td>36</td><td>64</td><td>15</td><td>28</td><td>89</td><td>94</td><td>58</td><td>⋯</td><td>58</td><td>32</td><td>11</td><td>18</td><td>81</td><td>47</td><td>27</td><td>60</td><td>79</td><td>91</td></tr>
+	<tr><th >GeneA</th><td>30</td><td>67</td><td>34</td><td>98</td><td>32</td><td> 3</td><td>79</td><td>15</td><td> 6</td><td>18</td><td>⋯</td><td>97</td><td>49</td><td>12</td><td> 6</td><td>87</td><td>58</td><td>55</td><td>13</td><td>48</td><td>28</td></tr>
+	<tr><th >GeneB</th><td>80</td><td>70</td><td>28</td><td>51</td><td>74</td><td>76</td><td>85</td><td>98</td><td> 7</td><td>64</td><td>⋯</td><td>45</td><td>69</td><td> 1</td><td> 9</td><td> 8</td><td>49</td><td>97</td><td> 5</td><td>83</td><td>66</td></tr>
+	<tr><th >GeneC</th><td>43</td><td>36</td><td>41</td><td>24</td><td>71</td><td>76</td><td>91</td><td>50</td><td>81</td><td>57</td><td>⋯</td><td>21</td><td>10</td><td>75</td><td>35</td><td>77</td><td>92</td><td>85</td><td>73</td><td>97</td><td>12</td></tr>
+	<tr><th >GeneD</th><td>88</td><td>66</td><td>57</td><td> 8</td><td>11</td><td>91</td><td>71</td><td>84</td><td>89</td><td>63</td><td>⋯</td><td>12</td><td>16</td><td>61</td><td>42</td><td>48</td><td>96</td><td>26</td><td>84</td><td>75</td><td>78</td></tr>
+	<tr><th >GeneE</th><td>90</td><td>57</td><td>73</td><td>51</td><td>86</td><td>32</td><td>22</td><td>78</td><td>84</td><td>31</td><td>⋯</td><td>37</td><td>40</td><td> 1</td><td>37</td><td>74</td><td>79</td><td>89</td><td>79</td><td>68</td><td>42</td></tr>
+	<tr><th >GeneF</th><td>31</td><td>87</td><td>65</td><td>36</td><td>64</td><td>15</td><td>28</td><td>89</td><td>94</td><td>58</td><td>⋯</td><td>58</td><td>32</td><td>11</td><td>18</td><td>81</td><td>47</td><td>27</td><td>60</td><td>79</td><td>91</td></tr>
 </tbody>
 </table>
 
@@ -183,16 +183,16 @@ head(metadata)
 <table>
 <caption>A data.frame: 6 × 2</caption>
 <thead>
-	<tr><th></th><th scope=col>sample_name</th><th scope=col>condition</th></tr>
-	<tr><th></th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
+	<tr><th></th><th >sample_name</th><th >condition</th></tr>
+	<tr><th></th><th >&lt;fct&gt;</th><th >&lt;fct&gt;</th></tr>
 </thead>
 <tbody>
-	<tr><th scope=row>1</th><td>Sample1</td><td>conditionA</td></tr>
-	<tr><th scope=row>2</th><td>Sample2</td><td>conditionA</td></tr>
-	<tr><th scope=row>3</th><td>Sample3</td><td>conditionA</td></tr>
-	<tr><th scope=row>4</th><td>Sample4</td><td>conditionA</td></tr>
-	<tr><th scope=row>5</th><td>Sample5</td><td>conditionB</td></tr>
-	<tr><th scope=row>6</th><td>Sample6</td><td>conditionB</td></tr>
+	<tr><th >1</th><td>Sample1</td><td>conditionA</td></tr>
+	<tr><th >2</th><td>Sample2</td><td>conditionA</td></tr>
+	<tr><th >3</th><td>Sample3</td><td>conditionA</td></tr>
+	<tr><th >4</th><td>Sample4</td><td>conditionA</td></tr>
+	<tr><th >5</th><td>Sample5</td><td>conditionB</td></tr>
+	<tr><th >6</th><td>Sample6</td><td>conditionB</td></tr>
 </tbody>
 </table>
 
@@ -319,16 +319,16 @@ Representation of metadata dataframe in Table below
 <table>
 <caption>A data.frame: 6 × 1</caption>
 <thead>
-	<tr><th></th><th scope=col>metadata....condition..</th></tr>
-	<tr><th></th><th scope=col>&lt;fct&gt;</th></tr>
+	<tr><th></th><th >metadata....condition..</th></tr>
+	<tr><th></th><th >&lt;fct&gt;</th></tr>
 </thead>
 <tbody>
-	<tr><th scope=row>Sample1</th><td>conditionA</td></tr>
-	<tr><th scope=row>Sample2</th><td>conditionA</td></tr>
-	<tr><th scope=row>Sample3</th><td>conditionA</td></tr>
-	<tr><th scope=row>Sample4</th><td>conditionA</td></tr>
-	<tr><th scope=row>Sample5</th><td>conditionB</td></tr>
-	<tr><th scope=row>Sample6</th><td>conditionB</td></tr>
+	<tr><th >Sample1</th><td>conditionA</td></tr>
+	<tr><th >Sample2</th><td>conditionA</td></tr>
+	<tr><th >Sample3</th><td>conditionA</td></tr>
+	<tr><th >Sample4</th><td>conditionA</td></tr>
+	<tr><th >Sample5</th><td>conditionB</td></tr>
+	<tr><th >Sample6</th><td>conditionB</td></tr>
 </tbody>
 </table>
 
