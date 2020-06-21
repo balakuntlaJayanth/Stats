@@ -11,7 +11,7 @@ categories: jekyll update
 
 <p style='text-align: justify;'>D3.js is a very popular data visualization library. D3.js can be used only through html. IPython provides functionality to embed html in to jupyter notebooks. </p>
 
-Now let us use the famous Iris data set to represent a scatter plot.
+D3.js can be used to plot any type of plot. Now we will illustrate scatter plot as example using standard IRIS data.
 
 <p style='text-align: justify;'>We will use the blocks template from mike bostocks blog ,to construct and customize the scatterplot in order to learn more about it .</p>
 
