@@ -314,5 +314,7 @@ HTML(html_template.substitute({'css_text': css_text, 'js_text': js_text}))
 ![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/21_june_2020/Screenshot_2020-06-21%20SCATTER%20PLOT.png)
 
 
-
+### References
+- https://d3js.org/
+- https://www.bogotobogo.com/python/IPython/iPython_Jupyter_Notebook_with_Embedded_D3.php
 
