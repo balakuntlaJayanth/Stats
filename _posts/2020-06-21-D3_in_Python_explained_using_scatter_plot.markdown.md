@@ -13,8 +13,11 @@ categories: jekyll update
 
 Now let us use the famous Iris data set to represent a scatter plot.
 
-<p style='text-align: justify;'>We will use the blocks template from mike bostocks blog ,to construct and customize the scatterplot in order to learn more about it .The link to the data set is here
-(https://gist.githubusercontent.com/mbostock/3887118/raw/2e68ffbeb23fe4dadd9b0f6bca62e9def6ee9e17/data.tsv) and it is in the tsv format.</p>
+<p style='text-align: justify;'>We will use the blocks template from mike bostocks blog ,to construct and customize the scatterplot in order to learn more about it .</p>
+
+The link to the data set is here:
+(https://gist.githubusercontent.com/mbostock/3887118/raw/2e68ffbeb23fe4dadd9b0f6bca62e9def6ee9e17/data.tsv) 
+and it is in the tsv format
 
 
 ```python
