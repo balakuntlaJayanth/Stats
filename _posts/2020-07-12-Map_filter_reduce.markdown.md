@@ -76,7 +76,7 @@ print(list(map(proper, list_of_names,list_of_names2)))
 
     ['Nikola Tesla', 'James Watt', 'Albert Einstein']
 
-Filter
+### Filter
 
 While map() passes each element in the iterable through a function and returns the result of all elements having passed through the function, filter(), first of all, requires the function to return boolean values (true or false) and then passes each element in the iterable through the function, "filtering" away those that are false. It has the following syntax:
 
