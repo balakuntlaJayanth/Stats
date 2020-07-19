@@ -202,33 +202,11 @@ print(num_range[4:])
     [4, 5, 6, 7, 8, 9]
 
 
-**Q. Given the list num_range, try printing:**  
-    a. Odd numbers  
-    b. Even numbers  
-    c. Numbers divisible by 3  
-    
-**Hint:** Try using the step-size after the end slice index
-
-
-```python
-#Answers here
-
-```
-
-Q. Find the maximum, minimum and length from the list **num_range**.  
-**Hint:** Use max(), min() and len() respectively.
-
-
-```python
-#Answer here
-```
-
 
 ```python
 names = ['Earth','Air','Fire','Water']
 
 ```
-
 Lets check if the items 'Air' and 'Wind' are present in the list or not
 
 
@@ -236,24 +214,14 @@ Lets check if the items 'Air' and 'Wind' are present in the list or not
 'Wind' in names
 ```
 
-
-
-
     False
-
-
 
 
 ```python
 'Air' in names
 ```
 
-
-
-
     True
-
-
 
 In a list with elements as string, **max( )** and **min( )** is applicable. **max( )** would return a string element whose ASCII value is the highest and the lowest when **min( )** is used. Note that only the first index of each element is considered each time and if they value is the same then second index considered so on and so forth.
 
@@ -299,13 +267,13 @@ A string can be converted into a list by using the list() function.
 
 
 ```python
-list('UpGrad')
+list('Grade')
 ```
 
 
 
 
-    ['U', 'p', 'G', 'r', 'a', 'd']
+    ['G', 'r', 'a', 'd','e']
 
 
 
@@ -351,12 +319,7 @@ print(out)
 ```
 
     Hi Can we get rid of the periods here
-
-
-
-
-
-
+\
 By the way, triple quotes are used for multiline comments. Don't you think something similar can be used during new user signups?
 
 ### Sorting
@@ -846,9 +809,9 @@ print(second_set)
 ### Set Methods - Built in set functions
 
 - aset.union(otherset) Returns a new set with all elements from both sets 
-- aset.intersection(otherset) Returns a new set with only those elements common to both sets |
-- aset.difference(otherset) Returns a new set with all items from first set not in second|
-- aset.issubset(otherset) Asks whether all elements of one set are in the other|
+- aset.intersection(otherset) Returns a new set with only those elements common to both sets 
+- aset.difference(otherset) Returns a new set with all items from first set not in second
+- aset.issubset(otherset) Asks whether all elements of one set are in the other
 - aset.add(item) Adds item to the set
 - aset.remove(item) Removes item from the set
 - aset.pop() Removes an arbitrary element from the set
