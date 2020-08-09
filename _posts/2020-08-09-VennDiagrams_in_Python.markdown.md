@@ -19,11 +19,6 @@ import pandas as pd
 
 
 ```python
-
-```
-
-
-```python
 from matplotlib_venn import venn3, venn2
 ```
 
