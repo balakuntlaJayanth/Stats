@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scatter Plots in ggplot Part I"
+title:  "Data Frames in R"
 date:   2020-08-30 22:02:38 +0530
 categories: jekyll update
 ---
