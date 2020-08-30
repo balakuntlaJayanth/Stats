@@ -30,14 +30,14 @@ head(df)
 <table>
 <caption>A data.frame: 4 × 3</caption>
 <thead>
-	<tr><th></th>X1</th>X2</th>X3</th></tr>
-	<tr><th></th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th></tr>
+	<tr><th ></th >X1</th >X2</th >X3</th ></tr>
+	<tr><th ></th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th ></tr>
 </thead>
 <tbody>
-	<tr><th>1</th><td> 1</td><td> 2</td><td> 3</td></tr>
-	<tr><th>2</th><td> 4</td><td> 5</td><td> 6</td></tr>
-	<tr><th>3</th><td> 7</td><td> 8</td><td> 9</td></tr>
-	<tr><th>4</th><td>10</td><td>11</td><td>12</td></tr>
+	<tr><th >1</th ><td> 1</td><td> 2</td><td> 3</td></tr>
+	<tr><th >2</th ><td> 4</td><td> 5</td><td> 6</td></tr>
+	<tr><th >3</th ><td> 7</td><td> 8</td><td> 9</td></tr>
+	<tr><th >4</th ><td>10</td><td>11</td><td>12</td></tr>
 </tbody>
 </table>
 
@@ -52,16 +52,16 @@ head(mtcars)
 <table>
 <caption>A data.frame: 6 × 11</caption>
 <thead>
-	<tr><th></th>mpg</th>cyl</th>disp</th>hp</th>drat</th>wt</th>qsec</th>vs</th>am</th>gear</th>carb</th></tr>
-	<tr><th></th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th></tr>
+	<tr><th ></th >mpg</th >cyl</th >disp</th >hp</th >drat</th >wt</th >qsec</th >vs</th >am</th >gear</th >carb</th ></tr>
+	<tr><th ></th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th ></tr>
 </thead>
 <tbody>
-	<tr><th>Mazda RX4</th><td>21.0</td><td>6</td><td>160</td><td>110</td><td>3.90</td><td>2.620</td><td>16.46</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
-	<tr><th>Mazda RX4 Wag</th><td>21.0</td><td>6</td><td>160</td><td>110</td><td>3.90</td><td>2.875</td><td>17.02</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
-	<tr><th>Datsun 710</th><td>22.8</td><td>4</td><td>108</td><td> 93</td><td>3.85</td><td>2.320</td><td>18.61</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
-	<tr><th>Hornet 4 Drive</th><td>21.4</td><td>6</td><td>258</td><td>110</td><td>3.08</td><td>3.215</td><td>19.44</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
-	<tr><th>Hornet Sportabout</th><td>18.7</td><td>8</td><td>360</td><td>175</td><td>3.15</td><td>3.440</td><td>17.02</td><td>0</td><td>0</td><td>3</td><td>2</td></tr>
-	<tr><th>Valiant</th><td>18.1</td><td>6</td><td>225</td><td>105</td><td>2.76</td><td>3.460</td><td>20.22</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
+	<tr><th >Mazda RX4</th ><td>21.0</td><td>6</td><td>160</td><td>110</td><td>3.90</td><td>2.620</td><td>16.46</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
+	<tr><th >Mazda RX4 Wag</th ><td>21.0</td><td>6</td><td>160</td><td>110</td><td>3.90</td><td>2.875</td><td>17.02</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
+	<tr><th >Datsun 710</th ><td>22.8</td><td>4</td><td>108</td><td> 93</td><td>3.85</td><td>2.320</td><td>18.61</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
+	<tr><th >Hornet 4 Drive</th ><td>21.4</td><td>6</td><td>258</td><td>110</td><td>3.08</td><td>3.215</td><td>19.44</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
+	<tr><th >Hornet Sportabout</th ><td>18.7</td><td>8</td><td>360</td><td>175</td><td>3.15</td><td>3.440</td><td>17.02</td><td>0</td><td>0</td><td>3</td><td>2</td></tr>
+	<tr><th >Valiant</th ><td>18.1</td><td>6</td><td>225</td><td>105</td><td>2.76</td><td>3.460</td><td>20.22</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
 </tbody>
 </table>
 
@@ -85,12 +85,12 @@ mtcars[c(1,10),c(3,4)]
 <table>
 <caption>A data.frame: 2 × 2</caption>
 <thead>
-	<tr><th></th>disp</th>hp</th></tr>
-	<tr><th></th>&lt;dbl&gt;</th>&lt;dbl&gt;</th></tr>
+	<tr><th ></th >disp</th >hp</th ></tr>
+	<tr><th ></th >&lt;dbl&gt;</th >&lt;dbl&gt;</th ></tr>
 </thead>
 <tbody>
-	<tr><th>Mazda RX4</th><td>160.0</td><td>110</td></tr>
-	<tr><th>Merc 280</th><td>167.6</td><td>123</td></tr>
+	<tr><th >Mazda RX4</th ><td>160.0</td><td>110</td></tr>
+	<tr><th >Merc 280</th ><td>167.6</td><td>123</td></tr>
 </tbody>
 </table>
 
@@ -120,20 +120,20 @@ t(mtcars)
 <table>
 <caption>A matrix: 11 × 32 of type dbl</caption>
 <thead>
-	<tr><th></th>Mazda RX4</th>Mazda RX4 Wag</th>Datsun 710</th>Hornet 4 Drive</th>Hornet Sportabout</th>Valiant</th>Duster 360</th>Merc 240D</th>Merc 230</th>Merc 280</th>⋯</th>AMC Javelin</th>Camaro Z28</th>Pontiac Firebird</th>Fiat X1-9</th>Porsche 914-2</th>Lotus Europa</th>Ford Pantera L</th>Ferrari Dino</th>Maserati Bora</th>Volvo 142E</th></tr>
+	<tr><th ></th >Mazda RX4</th >Mazda RX4 Wag</th >Datsun 710</th >Hornet 4 Drive</th >Hornet Sportabout</th >Valiant</th >Duster 360</th >Merc 240D</th >Merc 230</th >Merc 280</th >⋯</th >AMC Javelin</th >Camaro Z28</th >Pontiac Firebird</th >Fiat X1-9</th >Porsche 914-2</th >Lotus Europa</th >Ford Pantera L</th >Ferrari Dino</th >Maserati Bora</th >Volvo 142E</th ></tr>
 </thead>
 <tbody>
-	<tr><th>mpg</th><td> 21.00</td><td> 21.000</td><td> 22.80</td><td> 21.400</td><td> 18.70</td><td> 18.10</td><td> 14.30</td><td> 24.40</td><td> 22.80</td><td> 19.20</td><td>⋯</td><td> 15.200</td><td> 13.30</td><td> 19.200</td><td>27.300</td><td> 26.00</td><td> 30.400</td><td> 15.80</td><td> 19.70</td><td> 15.00</td><td> 21.40</td></tr>
-	<tr><th>cyl</th><td>  6.00</td><td>  6.000</td><td>  4.00</td><td>  6.000</td><td>  8.00</td><td>  6.00</td><td>  8.00</td><td>  4.00</td><td>  4.00</td><td>  6.00</td><td>⋯</td><td>  8.000</td><td>  8.00</td><td>  8.000</td><td> 4.000</td><td>  4.00</td><td>  4.000</td><td>  8.00</td><td>  6.00</td><td>  8.00</td><td>  4.00</td></tr>
-	<tr><th>disp</th><td>160.00</td><td>160.000</td><td>108.00</td><td>258.000</td><td>360.00</td><td>225.00</td><td>360.00</td><td>146.70</td><td>140.80</td><td>167.60</td><td>⋯</td><td>304.000</td><td>350.00</td><td>400.000</td><td>79.000</td><td>120.30</td><td> 95.100</td><td>351.00</td><td>145.00</td><td>301.00</td><td>121.00</td></tr>
-	<tr><th>hp</th><td>110.00</td><td>110.000</td><td> 93.00</td><td>110.000</td><td>175.00</td><td>105.00</td><td>245.00</td><td> 62.00</td><td> 95.00</td><td>123.00</td><td>⋯</td><td>150.000</td><td>245.00</td><td>175.000</td><td>66.000</td><td> 91.00</td><td>113.000</td><td>264.00</td><td>175.00</td><td>335.00</td><td>109.00</td></tr>
-	<tr><th>drat</th><td>  3.90</td><td>  3.900</td><td>  3.85</td><td>  3.080</td><td>  3.15</td><td>  2.76</td><td>  3.21</td><td>  3.69</td><td>  3.92</td><td>  3.92</td><td>⋯</td><td>  3.150</td><td>  3.73</td><td>  3.080</td><td> 4.080</td><td>  4.43</td><td>  3.770</td><td>  4.22</td><td>  3.62</td><td>  3.54</td><td>  4.11</td></tr>
-	<tr><th>wt</th><td>  2.62</td><td>  2.875</td><td>  2.32</td><td>  3.215</td><td>  3.44</td><td>  3.46</td><td>  3.57</td><td>  3.19</td><td>  3.15</td><td>  3.44</td><td>⋯</td><td>  3.435</td><td>  3.84</td><td>  3.845</td><td> 1.935</td><td>  2.14</td><td>  1.513</td><td>  3.17</td><td>  2.77</td><td>  3.57</td><td>  2.78</td></tr>
-	<tr><th>qsec</th><td> 16.46</td><td> 17.020</td><td> 18.61</td><td> 19.440</td><td> 17.02</td><td> 20.22</td><td> 15.84</td><td> 20.00</td><td> 22.90</td><td> 18.30</td><td>⋯</td><td> 17.300</td><td> 15.41</td><td> 17.050</td><td>18.900</td><td> 16.70</td><td> 16.900</td><td> 14.50</td><td> 15.50</td><td> 14.60</td><td> 18.60</td></tr>
-	<tr><th>vs</th><td>  0.00</td><td>  0.000</td><td>  1.00</td><td>  1.000</td><td>  0.00</td><td>  1.00</td><td>  0.00</td><td>  1.00</td><td>  1.00</td><td>  1.00</td><td>⋯</td><td>  0.000</td><td>  0.00</td><td>  0.000</td><td> 1.000</td><td>  0.00</td><td>  1.000</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  1.00</td></tr>
-	<tr><th>am</th><td>  1.00</td><td>  1.000</td><td>  1.00</td><td>  0.000</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>⋯</td><td>  0.000</td><td>  0.00</td><td>  0.000</td><td> 1.000</td><td>  1.00</td><td>  1.000</td><td>  1.00</td><td>  1.00</td><td>  1.00</td><td>  1.00</td></tr>
-	<tr><th>gear</th><td>  4.00</td><td>  4.000</td><td>  4.00</td><td>  3.000</td><td>  3.00</td><td>  3.00</td><td>  3.00</td><td>  4.00</td><td>  4.00</td><td>  4.00</td><td>⋯</td><td>  3.000</td><td>  3.00</td><td>  3.000</td><td> 4.000</td><td>  5.00</td><td>  5.000</td><td>  5.00</td><td>  5.00</td><td>  5.00</td><td>  4.00</td></tr>
-	<tr><th>carb</th><td>  4.00</td><td>  4.000</td><td>  1.00</td><td>  1.000</td><td>  2.00</td><td>  1.00</td><td>  4.00</td><td>  2.00</td><td>  2.00</td><td>  4.00</td><td>⋯</td><td>  2.000</td><td>  4.00</td><td>  2.000</td><td> 1.000</td><td>  2.00</td><td>  2.000</td><td>  4.00</td><td>  6.00</td><td>  8.00</td><td>  2.00</td></tr>
+	<tr><th >mpg</th ><td> 21.00</td><td> 21.000</td><td> 22.80</td><td> 21.400</td><td> 18.70</td><td> 18.10</td><td> 14.30</td><td> 24.40</td><td> 22.80</td><td> 19.20</td><td>⋯</td><td> 15.200</td><td> 13.30</td><td> 19.200</td><td>27.300</td><td> 26.00</td><td> 30.400</td><td> 15.80</td><td> 19.70</td><td> 15.00</td><td> 21.40</td></tr>
+	<tr><th >cyl</th ><td>  6.00</td><td>  6.000</td><td>  4.00</td><td>  6.000</td><td>  8.00</td><td>  6.00</td><td>  8.00</td><td>  4.00</td><td>  4.00</td><td>  6.00</td><td>⋯</td><td>  8.000</td><td>  8.00</td><td>  8.000</td><td> 4.000</td><td>  4.00</td><td>  4.000</td><td>  8.00</td><td>  6.00</td><td>  8.00</td><td>  4.00</td></tr>
+	<tr><th >disp</th ><td>160.00</td><td>160.000</td><td>108.00</td><td>258.000</td><td>360.00</td><td>225.00</td><td>360.00</td><td>146.70</td><td>140.80</td><td>167.60</td><td>⋯</td><td>304.000</td><td>350.00</td><td>400.000</td><td>79.000</td><td>120.30</td><td> 95.100</td><td>351.00</td><td>145.00</td><td>301.00</td><td>121.00</td></tr>
+	<tr><th >hp</th ><td>110.00</td><td>110.000</td><td> 93.00</td><td>110.000</td><td>175.00</td><td>105.00</td><td>245.00</td><td> 62.00</td><td> 95.00</td><td>123.00</td><td>⋯</td><td>150.000</td><td>245.00</td><td>175.000</td><td>66.000</td><td> 91.00</td><td>113.000</td><td>264.00</td><td>175.00</td><td>335.00</td><td>109.00</td></tr>
+	<tr><th >drat</th ><td>  3.90</td><td>  3.900</td><td>  3.85</td><td>  3.080</td><td>  3.15</td><td>  2.76</td><td>  3.21</td><td>  3.69</td><td>  3.92</td><td>  3.92</td><td>⋯</td><td>  3.150</td><td>  3.73</td><td>  3.080</td><td> 4.080</td><td>  4.43</td><td>  3.770</td><td>  4.22</td><td>  3.62</td><td>  3.54</td><td>  4.11</td></tr>
+	<tr><th >wt</th ><td>  2.62</td><td>  2.875</td><td>  2.32</td><td>  3.215</td><td>  3.44</td><td>  3.46</td><td>  3.57</td><td>  3.19</td><td>  3.15</td><td>  3.44</td><td>⋯</td><td>  3.435</td><td>  3.84</td><td>  3.845</td><td> 1.935</td><td>  2.14</td><td>  1.513</td><td>  3.17</td><td>  2.77</td><td>  3.57</td><td>  2.78</td></tr>
+	<tr><th >qsec</th ><td> 16.46</td><td> 17.020</td><td> 18.61</td><td> 19.440</td><td> 17.02</td><td> 20.22</td><td> 15.84</td><td> 20.00</td><td> 22.90</td><td> 18.30</td><td>⋯</td><td> 17.300</td><td> 15.41</td><td> 17.050</td><td>18.900</td><td> 16.70</td><td> 16.900</td><td> 14.50</td><td> 15.50</td><td> 14.60</td><td> 18.60</td></tr>
+	<tr><th >vs</th ><td>  0.00</td><td>  0.000</td><td>  1.00</td><td>  1.000</td><td>  0.00</td><td>  1.00</td><td>  0.00</td><td>  1.00</td><td>  1.00</td><td>  1.00</td><td>⋯</td><td>  0.000</td><td>  0.00</td><td>  0.000</td><td> 1.000</td><td>  0.00</td><td>  1.000</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  1.00</td></tr>
+	<tr><th >am</th ><td>  1.00</td><td>  1.000</td><td>  1.00</td><td>  0.000</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>  0.00</td><td>⋯</td><td>  0.000</td><td>  0.00</td><td>  0.000</td><td> 1.000</td><td>  1.00</td><td>  1.000</td><td>  1.00</td><td>  1.00</td><td>  1.00</td><td>  1.00</td></tr>
+	<tr><th >gear</th ><td>  4.00</td><td>  4.000</td><td>  4.00</td><td>  3.000</td><td>  3.00</td><td>  3.00</td><td>  3.00</td><td>  4.00</td><td>  4.00</td><td>  4.00</td><td>⋯</td><td>  3.000</td><td>  3.00</td><td>  3.000</td><td> 4.000</td><td>  5.00</td><td>  5.000</td><td>  5.00</td><td>  5.00</td><td>  5.00</td><td>  4.00</td></tr>
+	<tr><th >carb</th ><td>  4.00</td><td>  4.000</td><td>  1.00</td><td>  1.000</td><td>  2.00</td><td>  1.00</td><td>  4.00</td><td>  2.00</td><td>  2.00</td><td>  4.00</td><td>⋯</td><td>  2.000</td><td>  4.00</td><td>  2.000</td><td> 1.000</td><td>  2.00</td><td>  2.000</td><td>  4.00</td><td>  6.00</td><td>  8.00</td><td>  2.00</td></tr>
 </tbody>
 </table>
 
@@ -226,27 +226,27 @@ mtcars[mtcars$disp < mean(mtcars$disp),]
 <table>
 <caption>A data.frame: 17 × 11</caption>
 <thead>
-	<tr><th></th>mpg</th>cyl</th>disp</th>hp</th>drat</th>wt</th>qsec</th>vs</th>am</th>gear</th>carb</th></tr>
-	<tr><th></th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th></tr>
+	<tr><th ></th >mpg</th >cyl</th >disp</th >hp</th >drat</th >wt</th >qsec</th >vs</th >am</th >gear</th >carb</th ></tr>
+	<tr><th ></th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th ></tr>
 </thead>
 <tbody>
-	<tr><th>Mazda RX4</th><td>21.0</td><td>6</td><td>160.0</td><td>110</td><td>3.90</td><td>2.620</td><td>16.46</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
-	<tr><th>Mazda RX4 Wag</th><td>21.0</td><td>6</td><td>160.0</td><td>110</td><td>3.90</td><td>2.875</td><td>17.02</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
-	<tr><th>Datsun 710</th><td>22.8</td><td>4</td><td>108.0</td><td> 93</td><td>3.85</td><td>2.320</td><td>18.61</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
-	<tr><th>Valiant</th><td>18.1</td><td>6</td><td>225.0</td><td>105</td><td>2.76</td><td>3.460</td><td>20.22</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
-	<tr><th>Merc 240D</th><td>24.4</td><td>4</td><td>146.7</td><td> 62</td><td>3.69</td><td>3.190</td><td>20.00</td><td>1</td><td>0</td><td>4</td><td>2</td></tr>
-	<tr><th>Merc 230</th><td>22.8</td><td>4</td><td>140.8</td><td> 95</td><td>3.92</td><td>3.150</td><td>22.90</td><td>1</td><td>0</td><td>4</td><td>2</td></tr>
-	<tr><th>Merc 280</th><td>19.2</td><td>6</td><td>167.6</td><td>123</td><td>3.92</td><td>3.440</td><td>18.30</td><td>1</td><td>0</td><td>4</td><td>4</td></tr>
-	<tr><th>Merc 280C</th><td>17.8</td><td>6</td><td>167.6</td><td>123</td><td>3.92</td><td>3.440</td><td>18.90</td><td>1</td><td>0</td><td>4</td><td>4</td></tr>
-	<tr><th>Fiat 128</th><td>32.4</td><td>4</td><td> 78.7</td><td> 66</td><td>4.08</td><td>2.200</td><td>19.47</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
-	<tr><th>Honda Civic</th><td>30.4</td><td>4</td><td> 75.7</td><td> 52</td><td>4.93</td><td>1.615</td><td>18.52</td><td>1</td><td>1</td><td>4</td><td>2</td></tr>
-	<tr><th>Toyota Corolla</th><td>33.9</td><td>4</td><td> 71.1</td><td> 65</td><td>4.22</td><td>1.835</td><td>19.90</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
-	<tr><th>Toyota Corona</th><td>21.5</td><td>4</td><td>120.1</td><td> 97</td><td>3.70</td><td>2.465</td><td>20.01</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
-	<tr><th>Fiat X1-9</th><td>27.3</td><td>4</td><td> 79.0</td><td> 66</td><td>4.08</td><td>1.935</td><td>18.90</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
-	<tr><th>Porsche 914-2</th><td>26.0</td><td>4</td><td>120.3</td><td> 91</td><td>4.43</td><td>2.140</td><td>16.70</td><td>0</td><td>1</td><td>5</td><td>2</td></tr>
-	<tr><th>Lotus Europa</th><td>30.4</td><td>4</td><td> 95.1</td><td>113</td><td>3.77</td><td>1.513</td><td>16.90</td><td>1</td><td>1</td><td>5</td><td>2</td></tr>
-	<tr><th>Ferrari Dino</th><td>19.7</td><td>6</td><td>145.0</td><td>175</td><td>3.62</td><td>2.770</td><td>15.50</td><td>0</td><td>1</td><td>5</td><td>6</td></tr>
-	<tr><th>Volvo 142E</th><td>21.4</td><td>4</td><td>121.0</td><td>109</td><td>4.11</td><td>2.780</td><td>18.60</td><td>1</td><td>1</td><td>4</td><td>2</td></tr>
+	<tr><th >Mazda RX4</th ><td>21.0</td><td>6</td><td>160.0</td><td>110</td><td>3.90</td><td>2.620</td><td>16.46</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
+	<tr><th >Mazda RX4 Wag</th ><td>21.0</td><td>6</td><td>160.0</td><td>110</td><td>3.90</td><td>2.875</td><td>17.02</td><td>0</td><td>1</td><td>4</td><td>4</td></tr>
+	<tr><th >Datsun 710</th ><td>22.8</td><td>4</td><td>108.0</td><td> 93</td><td>3.85</td><td>2.320</td><td>18.61</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
+	<tr><th >Valiant</th ><td>18.1</td><td>6</td><td>225.0</td><td>105</td><td>2.76</td><td>3.460</td><td>20.22</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
+	<tr><th >Merc 240D</th ><td>24.4</td><td>4</td><td>146.7</td><td> 62</td><td>3.69</td><td>3.190</td><td>20.00</td><td>1</td><td>0</td><td>4</td><td>2</td></tr>
+	<tr><th >Merc 230</th ><td>22.8</td><td>4</td><td>140.8</td><td> 95</td><td>3.92</td><td>3.150</td><td>22.90</td><td>1</td><td>0</td><td>4</td><td>2</td></tr>
+	<tr><th >Merc 280</th ><td>19.2</td><td>6</td><td>167.6</td><td>123</td><td>3.92</td><td>3.440</td><td>18.30</td><td>1</td><td>0</td><td>4</td><td>4</td></tr>
+	<tr><th >Merc 280C</th ><td>17.8</td><td>6</td><td>167.6</td><td>123</td><td>3.92</td><td>3.440</td><td>18.90</td><td>1</td><td>0</td><td>4</td><td>4</td></tr>
+	<tr><th >Fiat 128</th ><td>32.4</td><td>4</td><td> 78.7</td><td> 66</td><td>4.08</td><td>2.200</td><td>19.47</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
+	<tr><th >Honda Civic</th ><td>30.4</td><td>4</td><td> 75.7</td><td> 52</td><td>4.93</td><td>1.615</td><td>18.52</td><td>1</td><td>1</td><td>4</td><td>2</td></tr>
+	<tr><th >Toyota Corolla</th ><td>33.9</td><td>4</td><td> 71.1</td><td> 65</td><td>4.22</td><td>1.835</td><td>19.90</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
+	<tr><th >Toyota Corona</th ><td>21.5</td><td>4</td><td>120.1</td><td> 97</td><td>3.70</td><td>2.465</td><td>20.01</td><td>1</td><td>0</td><td>3</td><td>1</td></tr>
+	<tr><th >Fiat X1-9</th ><td>27.3</td><td>4</td><td> 79.0</td><td> 66</td><td>4.08</td><td>1.935</td><td>18.90</td><td>1</td><td>1</td><td>4</td><td>1</td></tr>
+	<tr><th >Porsche 914-2</th ><td>26.0</td><td>4</td><td>120.3</td><td> 91</td><td>4.43</td><td>2.140</td><td>16.70</td><td>0</td><td>1</td><td>5</td><td>2</td></tr>
+	<tr><th >Lotus Europa</th ><td>30.4</td><td>4</td><td> 95.1</td><td>113</td><td>3.77</td><td>1.513</td><td>16.90</td><td>1</td><td>1</td><td>5</td><td>2</td></tr>
+	<tr><th >Ferrari Dino</th ><td>19.7</td><td>6</td><td>145.0</td><td>175</td><td>3.62</td><td>2.770</td><td>15.50</td><td>0</td><td>1</td><td>5</td><td>6</td></tr>
+	<tr><th >Volvo 142E</th ><td>21.4</td><td>4</td><td>121.0</td><td>109</td><td>4.11</td><td>2.780</td><td>18.60</td><td>1</td><td>1</td><td>4</td><td>2</td></tr>
 </tbody>
 </table>
 
@@ -266,16 +266,16 @@ tail(mtcars)
 <table>
 <caption>A data.frame: 6 × 12</caption>
 <thead>
-	<tr><th></th>mpg</th>cyl</th>disp</th>hp</th>drat</th>wt</th>qsec</th>vs</th>am</th>gear</th>carb</th>mean</th></tr>
-	<tr><th></th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th></tr>
+	<tr><th ></th >mpg</th >cyl</th >disp</th >hp</th >drat</th >wt</th >qsec</th >vs</th >am</th >gear</th >carb</th >mean</th ></tr>
+	<tr><th ></th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th ></tr>
 </thead>
 <tbody>
-	<tr><th>Porsche 914-2</th><td>26.0</td><td>4</td><td>120.3</td><td> 91</td><td>4.43</td><td>2.140</td><td>16.7</td><td>0</td><td>1</td><td>5</td><td>2</td><td>20.09062</td></tr>
-	<tr><th>Lotus Europa</th><td>30.4</td><td>4</td><td> 95.1</td><td>113</td><td>3.77</td><td>1.513</td><td>16.9</td><td>1</td><td>1</td><td>5</td><td>2</td><td>20.09062</td></tr>
-	<tr><th>Ford Pantera L</th><td>15.8</td><td>8</td><td>351.0</td><td>264</td><td>4.22</td><td>3.170</td><td>14.5</td><td>0</td><td>1</td><td>5</td><td>4</td><td>20.09062</td></tr>
-	<tr><th>Ferrari Dino</th><td>19.7</td><td>6</td><td>145.0</td><td>175</td><td>3.62</td><td>2.770</td><td>15.5</td><td>0</td><td>1</td><td>5</td><td>6</td><td>20.09062</td></tr>
-	<tr><th>Maserati Bora</th><td>15.0</td><td>8</td><td>301.0</td><td>335</td><td>3.54</td><td>3.570</td><td>14.6</td><td>0</td><td>1</td><td>5</td><td>8</td><td>20.09062</td></tr>
-	<tr><th>Volvo 142E</th><td>21.4</td><td>4</td><td>121.0</td><td>109</td><td>4.11</td><td>2.780</td><td>18.6</td><td>1</td><td>1</td><td>4</td><td>2</td><td>20.09062</td></tr>
+	<tr><th >Porsche 914-2</th ><td>26.0</td><td>4</td><td>120.3</td><td> 91</td><td>4.43</td><td>2.140</td><td>16.7</td><td>0</td><td>1</td><td>5</td><td>2</td><td>20.09062</td></tr>
+	<tr><th >Lotus Europa</th ><td>30.4</td><td>4</td><td> 95.1</td><td>113</td><td>3.77</td><td>1.513</td><td>16.9</td><td>1</td><td>1</td><td>5</td><td>2</td><td>20.09062</td></tr>
+	<tr><th >Ford Pantera L</th ><td>15.8</td><td>8</td><td>351.0</td><td>264</td><td>4.22</td><td>3.170</td><td>14.5</td><td>0</td><td>1</td><td>5</td><td>4</td><td>20.09062</td></tr>
+	<tr><th >Ferrari Dino</th ><td>19.7</td><td>6</td><td>145.0</td><td>175</td><td>3.62</td><td>2.770</td><td>15.5</td><td>0</td><td>1</td><td>5</td><td>6</td><td>20.09062</td></tr>
+	<tr><th >Maserati Bora</th ><td>15.0</td><td>8</td><td>301.0</td><td>335</td><td>3.54</td><td>3.570</td><td>14.6</td><td>0</td><td>1</td><td>5</td><td>8</td><td>20.09062</td></tr>
+	<tr><th >Volvo 142E</th ><td>21.4</td><td>4</td><td>121.0</td><td>109</td><td>4.11</td><td>2.780</td><td>18.6</td><td>1</td><td>1</td><td>4</td><td>2</td><td>20.09062</td></tr>
 </tbody>
 </table>
 
@@ -295,16 +295,16 @@ tail(mtcars)
 <table>
 <caption>A data.frame: 6 × 13</caption>
 <thead>
-	<tr><th></th>mpg</th>cyl</th>disp</th>hp</th>drat</th>wt</th>qsec</th>vs</th>am</th>gear</th>carb</th>mean</th>RMean</th></tr>
-	<tr><th></th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th></tr>
+	<tr><th ></th >mpg</th >cyl</th >disp</th >hp</th >drat</th >wt</th >qsec</th >vs</th >am</th >gear</th >carb</th >mean</th >RMean</th ></tr>
+	<tr><th ></th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th ></tr>
 </thead>
 <tbody>
-	<tr><th>Porsche 914-2</th><td>26.0</td><td>4</td><td>120.3</td><td> 91</td><td>4.43</td><td>2.140</td><td>16.7</td><td>0</td><td>1</td><td>5</td><td>2</td><td>20.09062</td><td>24.38839</td></tr>
-	<tr><th>Lotus Europa</th><td>30.4</td><td>4</td><td> 95.1</td><td>113</td><td>3.77</td><td>1.513</td><td>16.9</td><td>1</td><td>1</td><td>5</td><td>2</td><td>20.09062</td><td>24.48114</td></tr>
-	<tr><th>Ford Pantera L</th><td>15.8</td><td>8</td><td>351.0</td><td>264</td><td>4.22</td><td>3.170</td><td>14.5</td><td>0</td><td>1</td><td>5</td><td>4</td><td>20.09062</td><td>57.56505</td></tr>
-	<tr><th>Ferrari Dino</th><td>19.7</td><td>6</td><td>145.0</td><td>175</td><td>3.62</td><td>2.770</td><td>15.5</td><td>0</td><td>1</td><td>5</td><td>6</td><td>20.09062</td><td>33.30672</td></tr>
-	<tr><th>Maserati Bora</th><td>15.0</td><td>8</td><td>301.0</td><td>335</td><td>3.54</td><td>3.570</td><td>14.6</td><td>0</td><td>1</td><td>5</td><td>8</td><td>20.09062</td><td>59.56672</td></tr>
-	<tr><th>Volvo 142E</th><td>21.4</td><td>4</td><td>121.0</td><td>109</td><td>4.11</td><td>2.780</td><td>18.6</td><td>1</td><td>1</td><td>4</td><td>2</td><td>20.09062</td><td>25.74839</td></tr>
+	<tr><th >Porsche 914-2</th ><td>26.0</td><td>4</td><td>120.3</td><td> 91</td><td>4.43</td><td>2.140</td><td>16.7</td><td>0</td><td>1</td><td>5</td><td>2</td><td>20.09062</td><td>24.38839</td></tr>
+	<tr><th >Lotus Europa</th ><td>30.4</td><td>4</td><td> 95.1</td><td>113</td><td>3.77</td><td>1.513</td><td>16.9</td><td>1</td><td>1</td><td>5</td><td>2</td><td>20.09062</td><td>24.48114</td></tr>
+	<tr><th >Ford Pantera L</th ><td>15.8</td><td>8</td><td>351.0</td><td>264</td><td>4.22</td><td>3.170</td><td>14.5</td><td>0</td><td>1</td><td>5</td><td>4</td><td>20.09062</td><td>57.56505</td></tr>
+	<tr><th >Ferrari Dino</th ><td>19.7</td><td>6</td><td>145.0</td><td>175</td><td>3.62</td><td>2.770</td><td>15.5</td><td>0</td><td>1</td><td>5</td><td>6</td><td>20.09062</td><td>33.30672</td></tr>
+	<tr><th >Maserati Bora</th ><td>15.0</td><td>8</td><td>301.0</td><td>335</td><td>3.54</td><td>3.570</td><td>14.6</td><td>0</td><td>1</td><td>5</td><td>8</td><td>20.09062</td><td>59.56672</td></tr>
+	<tr><th >Volvo 142E</th ><td>21.4</td><td>4</td><td>121.0</td><td>109</td><td>4.11</td><td>2.780</td><td>18.6</td><td>1</td><td>1</td><td>4</td><td>2</td><td>20.09062</td><td>25.74839</td></tr>
 </tbody>
 </table>
 
@@ -341,16 +341,16 @@ head(dfN)
 <table>
 <caption>A data.frame: 6 × 3</caption>
 <thead>
-	<tr><th></th>mpg</th>cyl</th>disp</th></tr>
-	<tr><th></th>&lt;dbl&gt;</th>&lt;dbl&gt;</th>&lt;dbl&gt;</th></tr>
+	<tr><th ></th >mpg</th >cyl</th >disp</th ></tr>
+	<tr><th ></th >&lt;dbl&gt;</th >&lt;dbl&gt;</th >&lt;dbl&gt;</th ></tr>
 </thead>
 <tbody>
-	<tr><th>Mazda RX4</th><td>21.0</td><td>6</td><td>160</td></tr>
-	<tr><th>Mazda RX4 Wag</th><td>21.0</td><td>6</td><td>160</td></tr>
-	<tr><th>Datsun 710</th><td>22.8</td><td>4</td><td>108</td></tr>
-	<tr><th>Hornet 4 Drive</th><td>21.4</td><td>6</td><td>258</td></tr>
-	<tr><th>Hornet Sportabout</th><td>18.7</td><td>8</td><td>360</td></tr>
-	<tr><th>Valiant</th><td>18.1</td><td>6</td><td>225</td></tr>
+	<tr><th >Mazda RX4</th ><td>21.0</td><td>6</td><td>160</td></tr>
+	<tr><th >Mazda RX4 Wag</th ><td>21.0</td><td>6</td><td>160</td></tr>
+	<tr><th >Datsun 710</th ><td>22.8</td><td>4</td><td>108</td></tr>
+	<tr><th >Hornet 4 Drive</th ><td>21.4</td><td>6</td><td>258</td></tr>
+	<tr><th >Hornet Sportabout</th ><td>18.7</td><td>8</td><td>360</td></tr>
+	<tr><th >Valiant</th ><td>18.1</td><td>6</td><td>225</td></tr>
 </tbody>
 </table>
 
