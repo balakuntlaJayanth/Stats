@@ -13,44 +13,18 @@ categories: jekyll update
 
 <p style='text-align: justify;'> The benefit of using regression analysis is that it identifies the significant relationships between dependent and independent variables and the strength of the impact of multiple independent variables on independent variables.</p>
 
+### R implementation of Linear Regression
+
+<p style='text-align: justify;'> Generate 100 random values for x and y 
+variable using rnorm function.</p>
+
 ```R
 x = rnorm(100,mean=1,sd=1)
 ```
 
-
-```R
-head(x)
-```
-
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>1.40619711834909</li><li>2.80377106532667</li><li>0.513409060876084</li><li>-0.418259130116073</li><li>0.167986398990467</li><li>0.426728724880159</li></ol>
-
-
-
-
 ```R
 y = rnorm(100,mean=1,sd=1)
 ```
-
-
-```R
-head(y)
-```
-
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>2.15765049100965</li><li>2.58915896159442</li><li>0.417285989892461</li><li>1.65881608815959</li><li>1.52231999440783</li><li>1.39994020152563</li></ol>
-
-
 
 
 ```R
@@ -99,7 +73,7 @@ summary(mod)
     F-statistic: 0.7247 on 1 and 98 DF,  p-value: 0.3967
 
 
-
+<p style='text-align: justify;'>Set the seed of R‘s random number generator, which is useful for creating simulations or random objects that can be reproduced.</p>
 
 ```R
 set.seed(123);
@@ -153,10 +127,8 @@ summary(mod)
 
 <p style='text-align: justify;'>  The p-values of 1.01e-08, 0.625, and 0.6246 tell you the significance of the linear model. When the p-value is less than 0.05, the model is significant.</p>
 
-- H0 : Coefficient associated with the variable is equal to
-zero
-- H1 : Coefficient is not equal to zero (there
-is a relationship)
+- H0 : Coefficient associated with the variable is equal to zero
+- H1 : Coefficient is not equal to zero (there is a relationship)
 
 <p style='text-align: justify;'> The intercept has a p-value of 1.01e-08, which is smaller than 0.05, so there is a significance with the y variable. The significance is indicated with the number of *. The x has a p-value of 0.625, which is more than 0.05, so there is no significance with the y variable. The null hypothesis is true at the 95% confidence interval.</p>.
 
