@@ -86,3 +86,6 @@ save_d3_pdf(viz, file = "bar.pdf")
 
 ![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/27_09_2020/bar.png)
 
+
+### References
+- https://rstudio.github.io/r2d3/index.html
