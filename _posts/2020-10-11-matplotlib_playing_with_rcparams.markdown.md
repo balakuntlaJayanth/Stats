@@ -21,7 +21,9 @@ print(plt.style.available)
 
 
 ### customising Plots with rc.Params
-Customize Matplotlib parameters using rcParams. There are seven settings that I will share with you using rcParams in Matplotlib. They are using LaTeX font, customizing font size, adjusting legend text length, customizing axes line width, changing x-axis and y-axis tick direction, and the last is adjusting the major and minor size for the x-axis and y-axis tick. Let’s discuss it one by one.
+Customize Matplotlib parameters using rcParams. There are seven settings that I will discuss with you using rcParams in Matplotlib. 
+
+seven settings are LaTeX font, customizing font size, adjusting legend text length, customizing axes line width, changing x-axis and y-axis tick direction, and the last is adjusting the major and minor size for the x-axis and y-axis tick. Let’s discuss it one by one.
 ### Use LaTeX font
 
 
@@ -73,6 +75,14 @@ ax.yaxis.set_minor_locator(MultipleLocator(.005))
 
 ![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/11102020/output_15_0.png)
 
+
+
+### Adjust Line Width
+
+
+```python
+plt.rcParams['axes.linewidth'] = 3.0
+```
 
 
 ```python
@@ -140,11 +150,6 @@ plt.savefig('professional_plot.png', dpi = 300, pad_inches = .1, bbox_inches = '
 ![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/11102020/output_16_0.png)
 
 
-### Adjust Line Width
 
-
-```python
-plt.rcParams['axes.linewidth'] = 3.0
-```
-
-
+### Reference
+- https://matplotlib.org/contents.html
