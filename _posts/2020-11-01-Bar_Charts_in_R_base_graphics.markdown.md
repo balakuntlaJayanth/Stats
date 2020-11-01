@@ -22,7 +22,7 @@ barplot(height=data$value, names=data$name,ylim = c(0,50))
 ```
 
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_2_0.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_2_0.png)
 
 
 
@@ -32,7 +32,7 @@ barplot(height=data$value, names=data$name, col=rgb(0.2,0.4,0.6,0.6) )
 ```
 
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_3_0.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_3_0.png)
 
 
 
@@ -44,7 +44,7 @@ barplot(height=data$value, names=data$name, col=coul )
 ```
 
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_4_0.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_4_0.png)
 
 
 
@@ -54,7 +54,7 @@ barplot(height=data$value, names=data$name, border="#69b3a2", col="white" )
 ```
 
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_5_0.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_5_0.png)
 
 
 
@@ -63,7 +63,7 @@ barplot(height=data$value, names=data$name, col="#69b3a2",horiz=T, las=1)
 ```
 
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_6_0.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_6_0.png)
 
 
 
@@ -71,7 +71,7 @@ barplot(height=data$value, names=data$name, col="#69b3a2",horiz=T, las=1)
 barplot(height=data$value, names=data$name, col=rgb(0.2,0.4,0.6,0.6), space=c(0.1,0.2,3,1.5,0.3) )
 ```
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_7_1.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_7_1.png)
 
 
 
@@ -80,7 +80,7 @@ barplot(height=data$value, names=data$name, col=rgb(0.2,0.4,0.6,0.6), width=c(0.
 ```
 
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_8_0.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_8_0.png)
 
 
 
@@ -89,7 +89,7 @@ barplot( height=data$value, names=data$name , density=c(5,10,20,30,7) , angle=c(
 ```
 
 
-![png](https://github.com/balakuntlaJayanth/Stats/blob/master/images/01112020/output_9_0.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_9_1.png)
 
 
 ### References
