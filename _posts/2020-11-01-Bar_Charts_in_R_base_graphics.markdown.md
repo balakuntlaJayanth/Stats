@@ -89,7 +89,7 @@ barplot( height=data$value, names=data$name , density=c(5,10,20,30,7) , angle=c(
 ```
 
 
-![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_9_1.png)
+![png](https://raw.githubusercontent.com/balakuntlaJayanth/Stats/master/images/01112020/output_9_0.png)
 
 
 ### References
