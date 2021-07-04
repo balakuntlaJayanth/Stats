@@ -1,0 +1,1 @@
+PCA is an unsupervised linear separation technique . It preserves the global geometry of the data. PCA transforms the data in higher dimension by  linear mapping of the data to a lower-dimensional space  in a manner such that variance of the data in the low-dimensional is maximized. 
